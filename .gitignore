@@ -2,3 +2,8 @@ docs
 *.swp
 *.pyc
 pyenv
+
+meta-docs/structure.aux
+meta-docs/structure.log
+meta-docs/structure.pdf
+meta-docs/structure.png

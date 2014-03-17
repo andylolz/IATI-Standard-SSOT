@@ -1,5 +1,5 @@
 from lxml import etree as ET
-import os, json, csv, shutil
+import os, json, csv, shutil, re
 import textwrap
 import jinja2
 
@@ -120,6 +120,9 @@ class Schema2Doc(object):
         self.jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
         self.lang = lang
 
+    def output_annotated_schemas(self):
+        self.tree.write('test.xml')
+
     def get_schema_element(self, tag_name, name_attribute):
         """
         Returns the specified element from the schema.
@@ -161,6 +164,22 @@ class Schema2Doc(object):
         children = self.element_loop(element, path)
         for child_name, child_element in children:
             self.output_docs(child_name, path+element.attrib['name']+'/', child_element)
+
+
+        documentation = element.find(".//xsd:documentation", namespaces=namespaces)
+        documentation_text = documentation.text
+        indent = re.match('\s+', documentation_text.split('\n',1)[1]).group(0)
+        codelist_text = ''
+
+        attributes = self.attribute_loop(element)
+        attributes_augmented = []
+        for attribute, attribute_type, text, required in attributes:
+            codelist = match_codelist(path+element_name+'/@'+attribute)
+            attributes_augmented.append((attribute, attribute_type, text, required, codelist))
+            if codelist:
+                codelist_text += '\n{0}For the value of the @{1} attribute, see\n{0}http://dev.iatistandard.org/codelists/{2}/\n'.format(indent, attribute, codelist) 
+
+        documentation.text = documentation_text + codelist_text
                 
         with open('docs/'+rst_filename, 'w') as fp:
             t = self.jinja_env.get_template(self.lang+'/schema_element.rst')
@@ -170,10 +189,10 @@ class Schema2Doc(object):
                 element=element,
                 path=path,
                 github_url=github_url,
-                schema_documentation=textwrap.dedent(element.find(".//xsd:documentation", namespaces=namespaces).text),
+                schema_documentation=textwrap.dedent(documentation_text),
                 ruleset_text=ruleset_text(path+element_name),
                 extended_types=element.xpath('xsd:complexType/xsd:simpleContent/xsd:extension/@base', namespaces=namespaces),
-                attributes=self.attribute_loop(element),
+                attributes=attributes_augmented,
                 textwrap=textwrap,
                 match_codelist=match_codelist,
                 path_to_ref=path_to_ref,
@@ -367,6 +386,7 @@ if __name__ == '__main__':
         activities = Schema2Doc('iati-activities-schema.xsd', lang=language)
         activities.output_docs('iati-activities', 'activities-standard/')
         activities.output_schema_table('iati-activities', 'activities-standard/', output=True)
+        activities.output_annotated_schemas()
 
         orgs = Schema2Doc('iati-organisations-schema.xsd', lang=language)
         orgs.output_docs('iati-organisations', 'organisation-standard/')
