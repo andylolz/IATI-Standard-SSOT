@@ -3,6 +3,8 @@
 #     make [command]
 #
 
+SHELL := /bin/bash
+
 setup:
 	virtualenv pyenv; \
 	source pyenv/bin/activate; \
