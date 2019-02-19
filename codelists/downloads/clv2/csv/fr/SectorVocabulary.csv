@@ -1,0 +1,14 @@
+code,name,description,category,url,status
+1,Codes-objet à cinq chiffres du Système de notification des pays créanciers du Comité d'aide au développement de l'OCDE,,,http://www.oecd.org/dac/stats/dacandcrscodelists.htm,active
+2,Codes-objet à trois chiffres du Système de notification des pays créanciers du Comité d’aide au développement de l'OCDE,,,http://www.oecd.org/dac/stats/dacandcrscodelists.htm,active
+3,Classification des fonctions des administrations publiques (ONU),,,http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4,active
+4,Nomenclature statistique des activités économiques dans la Communauté européenne,,,http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&StrNom=NACE_REV2&StrLanguageCode=EN,active
+5,Taxonomie nationale des entités exonérées (É.-U.),,,http://nccs.urban.org/classification/NTEE.cfm,active
+6,AidData,,,,active
+7,,,,https://sustainabledevelopment.un.org/?menu=1300,active
+8,,,,http://unstats.un.org/sdgs/indicators/indicators-list/,active
+9,,,,http://unstats.un.org/sdgs/indicators/indicators-list/,active
+10,,,,https://data.humdata.org/dataset/global-coordination-groups-beta,active
+11,,,,https://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2017,active
+99,Organisation déclarante,,,,active
+98,Organisation déclarante 2,"Si plus d’un secteur est mentionné, le secteur indiqué correspond au vocabulaire utilisé par l’organisation déclarante en référence à cette activité",,,active

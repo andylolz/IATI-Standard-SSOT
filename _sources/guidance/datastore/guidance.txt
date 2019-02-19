@@ -1,0 +1,13 @@
+Guidance
+========
+
+The finer points of how to use the Datastore.
+
+.. toctree::
+
+    guidance/forming-queries
+    guidance/data-formats
+
+
+
+*Last updated on 2019-02-19*

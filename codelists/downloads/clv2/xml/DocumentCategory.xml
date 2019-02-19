@@ -1,0 +1,218 @@
+<codelist name="DocumentCategory" xml:lang="en" category-codelist="DocumentCategory-category" complete="1" embedded="1">
+    <metadata>
+        <name>Document Category</name>
+        <name xml:lang="fr">Catégorie du document</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>A01</code>
+            <category>A</category>
+            <name>Pre- and post-project impact appraisal</name>
+            <name xml:lang="fr">Évaluation de l’impact avant et après le projet</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A02</code>
+            <category>A</category>
+            <name>Objectives / Purpose of activity</name>
+            <name xml:lang="fr">Objectifs/finalités de l’activité</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A03</code>
+            <category>A</category>
+            <name>Intended ultimate beneficiaries</name>
+            <name xml:lang="fr">Bénéficiaires finaux visés</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A04</code>
+            <category>A</category>
+            <name>Conditions</name>
+            <name xml:lang="fr">Conditions</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A05</code>
+            <category>A</category>
+            <name>Budget</name>
+            <name xml:lang="fr">Budget</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A06</code>
+            <category>A</category>
+            <name>Summary information about contract</name>
+            <name xml:lang="fr">Résumé du contrat</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A07</code>
+            <category>A</category>
+            <name>Review of project performance and evaluation</name>
+            <name xml:lang="fr">Examen de la performance du projet et évaluation</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A08</code>
+            <category>A</category>
+            <name>Results, outcomes and outputs</name>
+            <name xml:lang="fr">Résultats, réalisations et produits</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A09</code>
+            <category>A</category>
+            <name>Memorandum of understanding (If agreed by all parties)</name>
+            <name xml:lang="fr">Protocole d’accord (si celui-ci a été approuvé par toutes les parties)</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A10</code>
+            <category>A</category>
+            <name>Tender</name>
+            <name xml:lang="fr">Appel d’offres</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A11</code>
+            <category>A</category>
+            <name>Contract</name>
+            <name xml:lang="fr">Contrat</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>A12</code>
+            <category>A</category>
+            <name>Activity web page</name>
+            <name xml:lang="fr">Page Web sur les activités</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B01</code>
+            <category>B</category>
+            <name>Annual report</name>
+            <name xml:lang="fr">Rapport annuel</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B02</code>
+            <category>B</category>
+            <name>Institutional Strategy paper</name>
+            <name xml:lang="fr">Document de stratégie institutionnelle</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B03</code>
+            <category>B</category>
+            <name>Country strategy paper</name>
+            <name xml:lang="fr">Document de stratégie nationale</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B04</code>
+            <category>B</category>
+            <name>Aid Allocation Policy</name>
+            <name xml:lang="fr">Politique d’affectation de l’aide</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B05</code>
+            <category>B</category>
+            <name>Procurement Policy and Procedure</name>
+            <name xml:lang="fr">Politique et procédure d’approvisionnement</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B06</code>
+            <category>B</category>
+            <name>Institutional Audit Report</name>
+            <name xml:lang="fr">Rapport d’audit institutionnel</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B07</code>
+            <category>B</category>
+            <name>Country Audit Report</name>
+            <name xml:lang="fr">Rapport d’audit de pays</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B08</code>
+            <category>B</category>
+            <name>Exclusions Policy</name>
+            <name xml:lang="fr">Politique relative aux exclusions</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B09</code>
+            <category>B</category>
+            <name>Institutional Evaluation Report</name>
+            <name xml:lang="fr">Rapport d’évaluation institutionnelle</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B10</code>
+            <category>B</category>
+            <name>Country Evaluation Report</name>
+            <name xml:lang="fr">Rapport d’évaluation nationale</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B11</code>
+            <category>B</category>
+            <name>Sector strategy</name>
+            <name xml:lang="fr">Stratégie sectorielle</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B12</code>
+            <category>B</category>
+            <name>Thematic strategy</name>
+            <name xml:lang="fr">Stratégie thématique</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B13</code>
+            <category>B</category>
+            <name>Country-level Memorandum of Understanding</name>
+            <name xml:lang="fr">Protocole d’accord national</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B14</code>
+            <category>B</category>
+            <name>Evaluations policy</name>
+            <name xml:lang="fr">Politique relative aux évaluations</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B15</code>
+            <category>B</category>
+            <name>General Terms and Conditions</name>
+            <name xml:lang="fr">Conditions générales</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B16</code>
+            <category>B</category>
+            <name>Organisation web page</name>
+            <name xml:lang="fr">Page Web sur l’organisation</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B17</code>
+            <category>B</category>
+            <name>Country/Region web page</name>
+            <name xml:lang="fr">Page Web sur les pays/régions</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>B18</code>
+            <category>B</category>
+            <name>Sector web page</name>
+            <name xml:lang="fr">Page Web sur les secteurs</name>
+            <description/>
+        </codelist-item>
+    </codelist-items>
+</codelist>

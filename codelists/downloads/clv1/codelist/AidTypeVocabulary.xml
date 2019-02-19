@@ -1,0 +1,20 @@
+<codelist date-last-modified="2019-02-19T19:41:43.531018+00:00" version="" name="AidTypeVocabulary" xml:lang="en">
+  <AidTypeVocabulary>
+    <code>1</code>
+    <name>OECD DAC</name>
+    <language>en</language>
+    <description>List of codes provided by the OECD DAC used to distinguish types of aid</description>
+  </AidTypeVocabulary>
+  <AidTypeVocabulary>
+    <code>2</code>
+    <name>Earmarking Category</name>
+    <language>en</language>
+    <description>This vocabulary has been created by IATI and is derived from the Grand Bargain Earmarking Modality codelist</description>
+  </AidTypeVocabulary>
+  <AidTypeVocabulary>
+    <code>3</code>
+    <name>Earmarking Modality</name>
+    <language>en</language>
+    <description>Codes A to L replicated directly from Grand Bargain document found in Annex 1 (pg.16)</description>
+  </AidTypeVocabulary>
+</codelist>

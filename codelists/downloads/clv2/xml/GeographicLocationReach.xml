@@ -1,0 +1,23 @@
+<codelist name="GeographicLocationReach" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <name>Geographic Location Reach</name>
+        <name xml:lang="fr">Caractéristiques du lieu</name>
+        <description/>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Activity</name>
+            <name xml:lang="fr">Activité</name>
+            <description>The location specifies where the activity is carried out</description>
+            <description xml:lang="fr">La désignation géographique correspond au lieu où l’activité est mise en œuvre.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Intended Beneficiaries</name>
+            <name xml:lang="fr">Bénéficiaires visés</name>
+            <description>The location specifies where the intended beneficiaries of the activity live</description>
+            <description xml:lang="fr">La désignation géographique correspond au lieu d’habitation des bénéficiaires visés.</description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

@@ -1,0 +1,45 @@
+<codelist name="PolicyMarker" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+        <name>Policy Marker</name>
+        <description>The Policy Marker codelist is derived from the policy markers declared by the WP-STAT. The codes themselves are created by IATI.</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Gender Equality</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Aid to Environment</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Participatory Development/Good Governance</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Trade Development</name>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Aid Targeting the Objectives of the Convention on Biological Diversity</name>
+        </codelist-item>
+        <codelist-item>
+            <code>6</code>
+            <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</name>
+        </codelist-item>
+        <codelist-item>
+            <code>7</code>
+            <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</name>
+        </codelist-item>
+        <codelist-item>
+            <code>8</code>
+            <name>Aid Targeting the Objectives of the Convention to Combat Desertification</name>
+        </codelist-item>
+        <codelist-item>
+            <code>9</code>
+            <name>Reproductive, Maternal, Newborn and Child Health (RMNCH)</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

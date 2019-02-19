@@ -1,0 +1,301 @@
+<codelist name="SectorCategory" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+        <name>DAC 3 Digit Sector</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>111</code>
+            <name>Education, level unspecified</name>
+            <name xml:lang="fr">Éducation, niveau non spécifié</name>
+            <description>Education sector policy, planning and programmes; aid to education ministries, administration and management systems; institution capacity building and advice; school management and governance; curriculum and materials development; unspecified education activities.</description>
+            <description xml:lang="fr">Politique de l’éducation, planification et programmes ; aide aux ministères de l’éducation, à l’administration et au développement de systèmes de gestion, renforcement des capacités institutionnelles et conseils ; gestion et direction des écoles, développement des programmes d’études et des matériels pédagogiques ; activités d’éducation non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>112</code>
+            <name>Basic education</name>
+            <name xml:lang="fr">Éducation de base</name>
+            <description>Formal and non-formal primary education for children; all elementary and first cycle systematic instruction; provision of learning materials.</description>
+            <description xml:lang="fr">Enseignement primaire formel et non formel pour les enfants ; enseignement élémentaire général ; fournitures scolaires.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>113</code>
+            <name>Secondary education</name>
+            <name xml:lang="fr">Éducation secondaire</name>
+            <description>Second cycle systematic instruction at both junior and senior levels.</description>
+            <description xml:lang="fr">Éducation secondaire généralisée pour les premiers et derniers cycles.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>114</code>
+            <name>Post-secondary education</name>
+            <name xml:lang="fr">Éducation post-secondaire</name>
+            <description>Degree and diploma programmes at universities, colleges and polytechnics; scholarships.</description>
+            <description xml:lang="fr">Diplômes universitaires, de l’enseignement supérieur, de technologie ; bourses d’études.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>121</code>
+            <name>Health, general</name>
+            <name xml:lang="fr">Santé, général</name>
+            <description>Health sector policy, planning and programmes; aid to health ministries, public health administration; institution capacity building and advice; medical insurance programmes; unspecified health activities.</description>
+            <description xml:lang="fr">Politique de la santé, planification et programmes ; aide aux ministères de la santé ; administration de la santé publique ; renforcement des capacités institutionnelles et conseils ; programmes d’assurance-maladie ; activités de santé non spécifiés.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>122</code>
+            <name>Basic health</name>
+            <name xml:lang="fr">Santé de base</name>
+            <description>Basic and primary health care programmes; paramedical and nursing care programmes; supply of drugs, medicines and vaccines related to basic health care.</description>
+            <description xml:lang="fr">Programmes de soins sanitaires primaires et de base ; programmes de soins paramédicaux et infirmiers ; approvisionnement en médicaments et en vaccins relatifs aux soins et services de santé de base.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>130</code>
+            <name>POPULATION POLICIES/ PROGRAMMES AND REPRODUCTIVE HEALTH</name>
+            <name xml:lang="fr">POLITIQUE EN MATIERE DE POPULATION/SANTE ET FERTILITE</name>
+            <description>Population/development policies; census work, vital registration; migration data; demographic research/analysis; reproductive health research; unspecified population activities.</description>
+            <description xml:lang="fr">Politique en matière de population et de développement ; recensement, enregistrement des naissances/décès ; données sur la migration ; recherche et analyse démographiques ; recherche en santé et fertilité ; activités de population non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>140</code>
+            <name>WATER AND SANITATION</name>
+            <name xml:lang="fr">EAU ET ASSAINISSEMENT</name>
+            <description>Water sector policy and governance, including legislation, regulation, planning and management as well as transboundary management of water; institutional capacity development; activities supporting the Integrated Water Resource Management approach (IWRM: see box below).</description>
+            <description xml:lang="fr">Politique et gouvernance du secteur de l’eau, y compris législation, réglementation, planification et gestion ainsi que gestion transfrontalière de l’eau; renforcement des capacités institutionnelles ; activités favorisant une approche intégrée de la gestion des ressources en eau (GIRE : voir encadré ci-dessous).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>151</code>
+            <name>Government and civil society, general</name>
+            <name xml:lang="fr">Gouvernement et société civile, général</name>
+            <description>Institution-building assistance to strengthen core public sector management systems and capacities. This includes macro-economic and other policy management, co-ordination, planning and reform; human resource management; organisational development; civil service reform; e-government; development planning, monitoring and evaluation; support to ministries involved in aid co-ordination; other ministries and government departments when sector cannot be specified. (Use specific sector codes for development of systems and capacities in sector ministries.)</description>
+            <description xml:lang="fr">Aide au renforcement des institutions visant à consolider les capacités et systèmes principaux de gestion du secteur public. Ceci recouvre la gestion macroéconomique et la gestion d’autres politiques, la coordination, la planification et la réforme ; la gestion des ressources humaines ; le développement organisationnel ; la réforme de la fonction publique ; l’administration électronique ; la planification, le suivi et l’évaluation du développement ; le soutien aux ministères participant à la coordination de l’aide ; d’autres ministères et services gouvernementaux lorsque le secteur ne peut pas être précisé. (Utiliser des codes sectoriels spécifiques pour le renforcement des systèmes et des capacités dans les ministères sectoriels.)</description>
+        </codelist-item>
+        <codelist-item>
+            <code>152</code>
+            <name>Conflict prevention and resolution, peace and security</name>
+            <name xml:lang="fr">Prévention et règlement des conflits, paix et sécurité</name>
+            <description>Technical co-operation provided to parliament, government ministries, law enforcement agencies and the judiciary to assist review and reform of the security system to improve democratic governance and civilian control; technical co-operation provided to government to improve civilian oversight and democratic control of budgeting, management, accountability and auditing of security expenditure, including military budgets, as part of a public expenditure management programme; assistance to civil society to enhance its competence and capacity to scrutinise the security system so that it is managed in accordance with democratic norms and principles of accountability, transparency and good governance. [Other than in the context of an international peacekeeping operation (15230).]</description>
+            <description xml:lang="fr">Coopération technique en faveur des parlements, des ministères publics, des services chargés de faire respecter la loi et des instances judiciaires pour aider à examiner et à réformer les systèmes de sécurité afin d’améliorer la gouvernance démocratique et le contrôle par les civils ; coopération technique en faveur des gouvernements à l’appui du renforcement de la supervision civile et du contrôle démocratique sur la budgétisation, la gestion, la transparence et l’audit des dépenses de sécurité, y compris les dépenses militaires, dans le cadre d’un programme d’amélioration de la gestion des dépenses publiques ; assistance apportée à la société civile en vue de renforcer ses compétences en matière de sécurité et sa capacité de veiller à ce que le système de sécurité soit géré conformément aux normes démocratiques et aux principes de responsabilité, de transparence et de bonne gouvernance. [Autre que dans le cadre d’une opération internationale de maintien de la paix (15230)].</description>
+        </codelist-item>
+        <codelist-item>
+            <code>160</code>
+            <name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</name>
+            <name xml:lang="fr">INFRASTRUCTURE ET SERVICES SOCIAUX DIVERS</name>
+            <description>Social legislation and administration; institution capacity building and advice; social security and other social schemes; special programmes for the elderly, orphans, the disabled, street children; social dimensions of structural adjustment; unspecified social infrastructure and services, including consumer protection.</description>
+            <description xml:lang="fr">Législation et administration sociales ; renforcement des capacités institutionnelles et conseils ; sécurité sociale et autres plans sociaux ; programmes spécifiques pour les personnes âgées, orphelins, handicapés, enfants abandonnés ; dimensions sociales de l’ajustement structurel ; infrastructure et services sociaux non spécifiés, y compris la protection des consommateurs.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>210</code>
+            <name>TRANSPORT AND STORAGE</name>
+            <name xml:lang="fr">TRANSPORTS ET ENTREPOSAGE</name>
+            <description>Transport sector policy, planning and programmes; aid to transport ministries; institution capacity building and advice; unspecified transport; activities that combine road, rail, water and/or air transport. Whenever possible, report transport of goods under the sector of the good being transported.</description>
+            <description xml:lang="fr">Politique des transports, planification et programmes ; aide aux ministères du transport ; renforcement des capacités institutionnelles et conseils ; transports non spécifiés ; activités qui recouvrent le transport routier, le transport ferroviaire, le transport par voies d’eau et/ou le transport aérien. Autant que possible, notifier le transport de marchandises sous le secteur économique de la marchandise transportée.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>220</code>
+            <name>COMMUNICATIONS</name>
+            <name xml:lang="fr">COMMUNICATIONS</name>
+            <description>Communications sector policy, planning and programmes; institution capacity building and advice; including postal services development; unspecified communications activities.</description>
+            <description xml:lang="fr">Politique des communications, planification et programmes ; renforcement des capacités institutionnelles et conseils ; y compris développement des services postaux ; activités de communications non spécifiées.</description>
+        </codelist-item>
+        <codelist-item status="withdrawn">
+            <code>230</code>
+            <name>ENERGY GENERATION AND SUPPLY</name>
+            <description>Energy sector policy, planning and programmes; aid to energy ministries; institution capacity building and advice; unspecified energy activities including energy conservation.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>231</code>
+            <name>Energy generation, distribution and efficiency – general</name>
+            <name xml:lang="fr">Énergie : production, distribution et efficacité - général</name>
+            <description>Energy sector policy, planning; aid to energy ministries; institution capacity building and advice; unspecified energy activities.</description>
+            <description xml:lang="fr">Politique et planification du secteur de l’énergie ; aide aux ministères de l’énergie ; conseils et renforcement des capacités institutionnelles ; activités non précisées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>232</code>
+            <name>Energy generation, renewable sources</name>
+            <name xml:lang="fr">Production d’énergie, sources renouvelables</name>
+            <description>Renewable energy generation programmes that cannot be attributed to one single technology (codes 23220 through 23280 below). Fuelwood/charcoal production should be included under forestry 31261.</description>
+            <description xml:lang="fr">Programmes de production d’énergie d’origine renouvelable qui ne peuvent être attribués à une seule technologie (codes 23220 à 23280 ci-après). La production de bois de chauffage/charbon de bois devrait figurer sous la rubrique sylviculture 31261.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>233</code>
+            <name>Energy generation, non-renewable sources</name>
+            <name xml:lang="fr">Production d’énergie, sources non renouvelables</name>
+            <description>Thermal power plants including when energy source cannot be determined; combined gas-coal power plants.</description>
+            <description xml:lang="fr">Centrales thermiques dont la source d’énergie est indéterminée ; centrales mixtes gaz-charbon.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>234</code>
+            <name>Hybrid energy electric power plants</name>
+            <name xml:lang="fr">Centrales hybrides</name>
+            <description>Electric power plants that make use of both non-renewable and renewable energy sources.</description>
+            <description xml:lang="fr">Centrales fonctionnant avec des énergies renouvelables et non renouvelables.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>235</code>
+            <name>Nuclear energy electric power plants</name>
+            <name xml:lang="fr">Centrales nucléaires</name>
+            <description>Including nuclear safety.</description>
+            <description xml:lang="fr">Dont sûreté nucléaire.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>236</code>
+            <name>Heating, cooling and energy distribution</name>
+            <name xml:lang="fr">Chauffage, refroidissement et distribution d’énergie</name>
+            <description>Power plants which are designed to produce heat only.</description>
+            <description xml:lang="fr">Installations produisant uniquement de la chaleur.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>240</code>
+            <name>BANKING AND FINANCIAL SERVICES</name>
+            <name xml:lang="fr">BANQUES ET SERVICES FINANCIERS</name>
+            <description>Finance sector policy, planning and programmes; institution capacity building and advice; financial markets and systems.</description>
+            <description xml:lang="fr">Politique des finances, planification et programmes ; renforcement des capacités institutionnelles et conseils ; marchés et systèmes financiers.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>250</code>
+            <name>BUSINESS AND OTHER SERVICES</name>
+            <name xml:lang="fr">ENTREPRISES ET AUTRES SERVICES</name>
+            <description>Support to trade and business associations, chambers of commerce; legal and regulatory reform aimed at improving business and investment climate; private sector institution capacity building and advice; trade information; public-private sector networking including trade fairs; e-commerce. Where sector cannot be specified: general support to private sector enterprises (in particular, use code 32130 for enterprises in the industrial sector).</description>
+            <description xml:lang="fr">Soutien aux associations de commerce et d’entreprises, chambres de commerce ; réformes juridiques et réglementaires afin d’améliorer les activités liées à l’entreprise ; renforcement des capacités institutionnelles du secteur privé et conseils ; information commerciale ; réseaux de liaison entre les secteurs public et privé y compris les foires commerciales ; commerce électronique. Quand le secteur ne peut pas être spécifié : soutien général aux entreprises du secteur privé. En particulier, pour les entreprises du secteur industriel, c’est le code 32130 qui doit être utilisé.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>311</code>
+            <name>AGRICULTURE</name>
+            <name xml:lang="fr">AGRICULTURE</name>
+            <description>Agricultural sector policy, planning and programmes; aid to agricultural ministries; institution capacity building and advice; unspecified agriculture.</description>
+            <description xml:lang="fr">Politique agricole, planification et programmes ; aide aux ministères de l’agriculture ; renforcement des capacités institutionnelles et conseils ; activités d’agriculture non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>312</code>
+            <name>FORESTRY</name>
+            <name xml:lang="fr">SYLVICULTURE</name>
+            <description>Forestry sector policy, planning and programmes; institution capacity building and advice; forest surveys; unspecified forestry and agro-forestry activities.</description>
+            <description xml:lang="fr">Politique de la sylviculture, planification et programmes ; renforcement des capacités institutionnelles et conseils ; études des forêts ; activités sylvicoles et agricoles liées à la sylviculture non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>313</code>
+            <name>FISHING</name>
+            <name xml:lang="fr">PECHE</name>
+            <description>Fishing sector policy, planning and programmes; institution capacity building and advice; ocean and coastal fishing; marine and freshwater fish surveys and prospecting; fishing boats/equipment; unspecified fishing activities.</description>
+            <description xml:lang="fr">Politique de la pêche, planification et programmes ; renforcement des capacités institutionnelles et conseils ; pêche hauturière et côtière ; évaluation, études et prospection du poisson en milieu marin et fluvial ; bateaux et équipements de pêche ; activités de pêche non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>321</code>
+            <name>INDUSTRY</name>
+            <name xml:lang="fr">INDUSTRIES MANUFACTURIERES</name>
+            <description>Industrial sector policy, planning and programmes; institution capacity building and advice; unspecified industrial activities; manufacturing of goods not specified below.</description>
+            <description xml:lang="fr">Politique de l’industrie, planification et programmes ; renforcement des capacités institutionnelles et conseils ; activités industrielles non spécifiées ; industries manufacturières non spécifiées ci-dessous.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>322</code>
+            <name>MINERAL RESOURCES AND MINING</name>
+            <name xml:lang="fr">INDUSTRIES EXTRACTIVES</name>
+            <description>Mineral and mining sector policy, planning and programmes; mining legislation, mining cadastre, mineral resources inventory, information systems, institution capacity building and advice; unspecified mineral resources exploitation.</description>
+            <description xml:lang="fr">Politique du secteur des industries extractives, planification et programmes ; législation et cadastre, recensement des richesses minérales, systèmes d’information ; renforcement des capacités institutionnelles et conseils ; exploitation des ressources minérales non spécifiées.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>323</code>
+            <name>CONSTRUCTION</name>
+            <name xml:lang="fr">CONSTRUCTION</name>
+            <description>Construction sector policy and planning; excluding construction activities within specific sectors (e.g., hospital or school construction).</description>
+            <description xml:lang="fr">Politique du secteur de la construction, planification ; ne comprend pas les activités de construction identifiables par secteur (par exemple, construction d’hôpitaux ou de bâtiments scolaires).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>331</code>
+            <name>TRADE POLICY AND REGULATIONS AND TRADE- RELATED ADJUSTMENT</name>
+            <name xml:lang="fr">POLITIQUE COMMERCIALE ET REGLEMENTATIONS ET AJUSTEMENT LIE AU COMMERCE</name>
+            <description>Trade policy and planning; support to ministries and departments responsible for trade policy; trade-related legislation and regulatory reforms; policy analysis and implementation of multilateral trade agreements e.g. technical barriers to trade and sanitary and phytosanitary measures (TBT/SPS) except at regional level (see 33130); mainstreaming trade in national development strategies (e.g. poverty reduction strategy papers); wholesale/retail trade; unspecified trade and trade promotion activities.</description>
+            <description xml:lang="fr">Politique commerciale et planification ; soutien aux ministères et départements responsables de la politique commerciale ; législation et réformes réglementaires dans le domaine du commerce ; analyse politique et mise en œuvre des accords commerciaux multilatéraux ex. sur les obstacles techniques au commerce et les mesures sanitaires et phytosanitaires sauf au niveau régional (voir 33130) ; intégration du commerce dans les stratégies nationales de développement (ex cadres stratégiques de la lutte contre la pauvreté) ; commerce de gros et de détail ; activités non spécifiées dans le domaine du commerce et de la promotion du commerce.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>332</code>
+            <name>TOURISM</name>
+            <name xml:lang="fr">TOURISME</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>410</code>
+            <name>General environmental protection</name>
+            <name xml:lang="fr">Protection de l’environnement, général</name>
+            <description>Environmental policy, laws, regulations and economic instruments; administrational institutions and practices; environmental and land use planning and decision-making procedures; seminars, meetings; miscellaneous conservation and protection measures not specified below.</description>
+            <description xml:lang="fr">Politique de l’environnement, lois et réglementations environnementales ; institutions et pratiques administratives ; planification de l’environnement et de l’utilisation des terres, procédures de décisions ; séminaires, réunions ; actions de préservation et de protection non spécifiées ci-dessous.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>430</code>
+            <name>Other multisector</name>
+            <name xml:lang="fr">Autres multi secteurs</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>510</code>
+            <name>General budget support</name>
+            <name xml:lang="fr">Soutien budgétaire général</name>
+            <description>Unearmarked contributions to the government budget; support for the implementation of macroeconomic reforms (structural adjustment programmes, poverty reduction strategies); general programme assistance (when not allocable by sector).</description>
+            <description xml:lang="fr">Contributions au budget du gouvernement non réservées ; soutien à la mise en œuvre des réformes macroéconomiques (programmes d’ajustement structurel, stratégies de réduction de la pauvreté) ; y compris l’aide-programme générale (ne pouvant être ventilée par secteur).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>520</code>
+            <name>Developmental food aid/Food security assistance</name>
+            <name xml:lang="fr">Aide alimentaire à des fins de développement/aide à la sécurité alimentaire</name>
+            <description>Supply of edible human food under national or international programmes including transport costs; cash payments made for food supplies; project food aid and food aid for market sales when benefiting sector not specified; excluding emergency food aid. Report as multilateral: i) food aid by the EU financed out of its budget and allocated pro rata to EU member countries; and ii) core contributions to the World Food Programme.</description>
+            <description xml:lang="fr">Fourniture nationale ou internationale de produits alimentaires y compris frais de transport ; paiements comptants pour la fourniture de produits alimentaires ; projets d’aide alimentaire et aide alimentaire destinée à la vente quand le secteur bénéficiaire ne peut être précisé ; à l’exclusion de l’aide alimentaire d’urgence. Notifier comme multilatéral : i) l'aide alimentaire consentie par l’UE et financée sur son budget propre puis répartie entre les États membres au pro rata de leur contribution à ce budget ; et ii) les contributions au budget central du PAM.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>530</code>
+            <name>Other commodity assistance</name>
+            <name xml:lang="fr">Aide sous forme de produits : autre</name>
+            <description>Capital goods and services; lines of credit.</description>
+            <description xml:lang="fr">Biens d’équipement et services ; lignes de crédit.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>600</code>
+            <name>Debt relief</name>
+            <name xml:lang="fr">Debt relief</name>
+            <description>Actions falling outside the code headings below.</description>
+            <description xml:lang="fr">Actions non spécifiées ci-dessous.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>720</code>
+            <name>Emergency Response</name>
+            <name xml:lang="fr">Intervention d’urgence</name>
+            <description>Shelter, water, sanitation and health services, supply of medicines and other non-food relief items for the benefit of affected people and to facilitate the return to normal lives and livelihoods; assistance to refugees and internally displaced people in developing countries other than for food (72040) or protection (72050).</description>
+            <description xml:lang="fr">Fourniture d’abris, d’eau, d’installations sanitaires et de services de santé, de médicaments et d’autres secours non alimentaires dans le but d’aider les populations affectées et de faciliter le retour à une vie et des moyens d’existence normaux ; aide aux personnes déplacées à l’intérieur d’un pays à des fins autres qu’alimentaires (72040) ou de protection (72050).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>730</code>
+            <name>Reconstruction relief and rehabilitation</name>
+            <name xml:lang="fr">Aide à la reconstruction et réhabilitation</name>
+            <description>Short-term reconstruction work after emergency or conflict limited to restoring pre-existing infrastructure (e.g. repair or construction of roads, bridges and ports, restoration of essential facilities, such as water and sanitation, shelter, health care services); social and economic rehabilitation in the aftermath of emergencies to facilitate transition and enable populations to return to their previous livelihood or develop a new livelihood in the wake of an emergency situation (e.g. trauma counselling and treatment, employment programmes).</description>
+            <description xml:lang="fr">Travaux de reconstruction à court terme après une urgence ou un conflit limités à la remise en état des infrastructures préexistantes (par exemple, réparation ou construction de routes, de ponts ou de ports, restauration des services essentiels concernant, par exemple, l’eau et l’assainissement, les abris, les soins de santé) ; réhabilitation sociale et économique après des situations d’urgence pour faciliter la transition et permettre aux populations touchées de retrouver leurs moyens d’existence antérieurs ou d’en trouver de nouveaux au sortir d’une situation d’urgence (par exemple, conseils et traitements en vue d’aider à surmonter les traumatismes subis, programmes d’emploi).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>740</code>
+            <name>Disaster prevention and preparedness</name>
+            <name xml:lang="fr">Prévention des catastrophes et préparation à leur survenue</name>
+            <description>Disaster risk reduction activities (e.g. developing knowledge, natural risks cartography, legal norms for construction); early warning systems; emergency contingency stocks and contingency planning including preparations for forced displacement.</description>
+            <description xml:lang="fr">Activités visant à réduire les risques liés aux catastrophes (par exemple développement des connaissances, établissement d’une cartographie des risques naturels, de normes juridiques pour les constructions) ; systèmes d’alerte précoce, stocks d’urgence et planification d’urgence, y compris préparation à une évacuation.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>910</code>
+            <name>ADMINISTRATIVE COSTS OF DONORS</name>
+            <name xml:lang="fr">ADMINISTRATIVE COSTS OF DONORS</name>
+            <description/>
+        </codelist-item>
+        <codelist-item status="withdrawn">
+            <code>920</code>
+            <name>SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)</name>
+            <description>In the donor country.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>930</code>
+            <name>REFUGEES IN DONOR COUNTRIES</name>
+            <name xml:lang="fr">REFUGIES DANS LE PAYS DONNEUR</name>
+            <description/>
+        </codelist-item>
+        <codelist-item>
+            <code>998</code>
+            <name>UNALLOCATED/ UNSPECIFIED</name>
+            <name xml:lang="fr">NON AFFECTE/ NON SPECIFIE</name>
+            <description>Contributions to general development of the recipient should be included under programme assistance (51010).</description>
+            <description xml:lang="fr">Les contributions au développement général du pays bénéficiaire devraient être incluses dans l’aide programme (51010).</description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

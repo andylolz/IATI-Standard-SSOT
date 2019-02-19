@@ -1,0 +1,20 @@
+<codelist name="BudgetNotProvided" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <name>Budget Not Provided</name>
+        <description>A codelist defining the reasons why an activity does not contain any iati-activity/budget elements.</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Commercial Restrictions</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Legal Restrictions</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Rapid Onset Emergency</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

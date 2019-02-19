@@ -1,0 +1,43 @@
+<codelist name="RelatedActivityType" xml:lang="en" complete="1" embedded="1">
+    <metadata>
+        <name>Related Activity Type</name>
+        <name xml:lang="fr">Type d’activité connexe</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Parent</name>
+            <name xml:lang="fr">Parent</name>
+            <description>An activity that contains sub-activities (sub-components) which are reported separately to IATI</description>
+            <description xml:lang="fr">Activité qui comprend des sous-activités (sous-composantes) qui sont communiquées séparément à l’IITA</description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Child</name>
+            <name xml:lang="fr">Descendant</name>
+            <description>A sub-activity (or sub-component) that sits within a larger activity (parent) which is also reported to IATI</description>
+            <description xml:lang="fr">Sous-activité (ou sous-composante) faisant partie d’une activité plus large (mère) et communiquée spécifiquement à l’IITA</description>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Sibling</name>
+            <name xml:lang="fr">Fratrie</name>
+            <description>A sub-activity (or sub-component) that is related to another sub-activity with the same parent </description>
+            <description xml:lang="fr">Sous-activité (ou sous-composante) en lien avec une autre sous-activité dans le cadre d’une activité mère commune</description>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Co-funded</name>
+            <name xml:lang="fr">Co-financée</name>
+            <description>An activity that receives funding from more than one organisation</description>
+            <description xml:lang="fr">Activité financée par plusieurs organisations</description>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Third Party</name>
+            <name xml:lang="fr">Tiers</name>
+            <description>A report by another organisation on the same activity you are reporting (excluding activities reported as part of a financial transaction - e.g. provider-activity-id or a co-funded activity, using code 4)</description>
+            <description xml:lang="fr">Rapport d’une autre organisation sur la même activité que celle dont vous rendez compte (à l’exclusion des activités communiquées dans le cadre d’une transaction financière, p. ex., identifiant de l’activité d’un prestataire ou activité co-financée, en utilisant le code 4)</description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

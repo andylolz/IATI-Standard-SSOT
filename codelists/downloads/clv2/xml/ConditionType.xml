@@ -1,0 +1,31 @@
+<codelist name="ConditionType" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <name>Condition Type</name>
+        <name xml:lang="fr">Type de condition</name>
+        <description>Condition type – e.g. policy, performance.</description>
+        <description xml:lang="fr">Type de condition – p. ex., politique, performance</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Policy</name>
+            <name xml:lang="fr">Politique</name>
+            <description>The condition attached requires a particular policy to be implemented by the recipient</description>
+            <description xml:lang="fr">La condition ci-jointe nécessite la mise en œuvre d’une politique spécifique par le bénéficiaire.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Performance</name>
+            <name xml:lang="fr">Performance</name>
+            <description>The condition attached requires certain outputs or outcomes to be achieved by the recipient</description>
+            <description xml:lang="fr">La condition ci-jointe nécessite la réalisation par le bénéficiaire de certains objectifs ou l’obtention de certains résultats.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Fiduciary</name>
+            <name xml:lang="fr">Fiduciaire</name>
+            <description>The condition attached requires use of certain public financial management or public accountability measures by the recipient</description>
+            <description xml:lang="fr">La condition ci-jointe nécessite la mise en œuvre par le bénéficiaire de certaines mesures en matière de gestion des finances publiques ou de responsabilité publique.</description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

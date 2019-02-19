@@ -1,0 +1,17 @@
+<codelist date-last-modified="2019-02-19T19:41:42.933751+00:00" version="" name="HumanitarianScopeVocabulary" xml:lang="en">
+  <HumanitarianScopeVocabulary>
+    <code>1-2</code>
+    <name>Glide</name>
+    <language>en</language>
+  </HumanitarianScopeVocabulary>
+  <HumanitarianScopeVocabulary>
+    <code>2-1</code>
+    <name>Humanitarian Plan</name>
+    <language>en</language>
+  </HumanitarianScopeVocabulary>
+  <HumanitarianScopeVocabulary>
+    <code>99</code>
+    <name>Reporting Organisation</name>
+    <language>en</language>
+  </HumanitarianScopeVocabulary>
+</codelist>

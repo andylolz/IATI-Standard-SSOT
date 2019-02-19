@@ -1,0 +1,40 @@
+<codelist name="OtherIdentifierType" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <name>Other Identifier Type</name>
+        <name xml:lang="fr">Autre critère d’identification</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>A1</code>
+            <name>Reporting Organisation's internal activity identifier</name>
+            <name xml:lang="fr">Identifiant interne de l’activité dans l’organisation en charge de l’élaboration du rapport</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A2</code>
+            <name>CRS Activity identifier</name>
+            <name xml:lang="fr">Identifiant de l’activité dans le Système de notification des pays créanciers</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A3</code>
+            <name>Previous Activity Identifier</name>
+            <name xml:lang="fr">Identifiant précédent de l’activité</name>
+            <description>The standard insists that once an activity has been reported to IATI its identifier MUST NOT be changed, even if the reporting organisation changes its organisation identifier. There may be exceptional circumstances in which this rule cannot be followed, in which case the previous identifier should be reported using this code.</description>
+            <description xml:lang="fr">La norme insiste sur le fait qu’un identifiant d’activité transmis à l’IITA NE DOIT PAS être modifié, même si le notificateur modifie l’identifiant de l’organisation. Si des circonstances exceptionnelles empêchent le respect de cette règle, il convient de renseigner l’identifiant précédent à l’aide de ce code.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>A9</code>
+            <name>Other Activity Identifier</name>
+            <name xml:lang="fr">Autre identifiant de l’activité</name>
+        </codelist-item>
+        <codelist-item>
+            <code>B1</code>
+            <name>Previous Reporting Organisation Identifier</name>
+            <name xml:lang="fr">Identifiant précédent de l’organisation en charge de l’élaboration du rapport</name>
+        </codelist-item>
+        <codelist-item>
+            <code>B9</code>
+            <name>Other Organisation Identifier</name>
+            <name xml:lang="fr">Autre identifiant de l’organisation</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

@@ -1,0 +1,14 @@
+<codelist date-last-modified="2019-02-19T19:41:43.193810+00:00" version="" name="BudgetType" xml:lang="en">
+  <BudgetType>
+    <code>1</code>
+    <name>Original</name>
+    <language>en</language>
+    <description>The original budget allocated to the activity</description>
+  </BudgetType>
+  <BudgetType>
+    <code>2</code>
+    <name>Revised</name>
+    <language>en</language>
+    <description>The updated budget for an activity</description>
+  </BudgetType>
+</codelist>

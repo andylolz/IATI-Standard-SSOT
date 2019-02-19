@@ -1,0 +1,1803 @@
+<codelist name="CRSChannelCode" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+        <name>CRS Channel Code</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>10000</code>
+            <name>PUBLIC SECTOR INSTITUTIONS</name>
+            <name xml:lang="fr">INSTITUTIONS DU SECTEUR PUBLIC</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>11000</code>
+            <name>Donor Government</name>
+            <name xml:lang="fr">Gouvernement du donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>11001</code>
+            <name>Central Government</name>
+            <name xml:lang="fr">Gouvernment central</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>11002</code>
+            <name>Local Government</name>
+            <name xml:lang="fr">Gouvernment local</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>11003</code>
+            <name>Public corporations</name>
+            <name xml:lang="fr">Entreprise publique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>11004</code>
+            <name>Other public entities in donor country</name>
+            <name xml:lang="fr">Autres entité publique dans le pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>12000</code>
+            <name>Recipient Government</name>
+            <name xml:lang="fr">Gouvernement du bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>12001</code>
+            <name>Central Government</name>
+            <name xml:lang="fr">Gouvernment central</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>12002</code>
+            <name>Local Government</name>
+            <name xml:lang="fr">Gouvernment local</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>12003</code>
+            <name>Public corporations</name>
+            <name xml:lang="fr">Entreprise publique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>12004</code>
+            <name>Other public entities in recipient country</name>
+            <name xml:lang="fr">Autres entité publique dans le pays bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>13000</code>
+            <name>Third Country Government (Delegated co-operation)</name>
+            <name xml:lang="fr">Gouvernement tiers (coopération déléguée)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>20000</code>
+            <name>NON-GOVERNMENTAL ORGANISATIONS (NGOs) AND CIVIL SOCIETY</name>
+            <name xml:lang="fr">ORGANISATIONS NON GOUVERNEMENTALES (ONG) et SOCIÉTÉ CIVILE</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21000</code>
+            <name>INTERNATIONAL NGO</name>
+            <name xml:lang="fr">ONG INTERNATIONALE</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21045</code>
+            <name>African Medical and Research Foundation</name>
+            <name xml:lang="fr">Fondation africaine pour la médecine et la recherche</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21046</code>
+            <name>Agency for Cooperation and Research in Development</name>
+            <name xml:lang="fr">Association de Coopération et de Recherche pour le Développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21001</code>
+            <name>Association of Geoscientists for International Development</name>
+            <name xml:lang="fr">Association de géoscientifiques pour le développement international</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>21063</code>
+            <name>Conservation International</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21005</code>
+            <name>Consumer Unity and Trust Society International</name>
+            <name xml:lang="fr">Consumer Unity and Trust Society International</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21029</code>
+            <name>Doctors Without Borders</name>
+            <name xml:lang="fr">Médecins Sans Frontières</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47035</code>
+            <name>Environmental Development Action in the Third World</name>
+            <name xml:lang="fr">Environnement et développement du Tiers-monde</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21007</code>
+            <name>Environmental Liaison Centre International</name>
+            <name xml:lang="fr">Centre international de liaison pour l’environnement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21503</code>
+            <name>Family Health International 360</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21011</code>
+            <name>Global Campaign for Education</name>
+            <name xml:lang="fr">Campagne mondiale pour l’éducation</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21013</code>
+            <name>Health Action International</name>
+            <name xml:lang="fr">Health Action International</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21024</code>
+            <name>Inter Press Service, International Association</name>
+            <name xml:lang="fr">Inter Press Service, International Association</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21038</code>
+            <name>International Alert</name>
+            <name xml:lang="fr">International Alert</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21057</code>
+            <name>International Centre for Transitional Justice</name>
+            <name xml:lang="fr">Centre International pour la Justice Transitionnelle</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21016</code>
+            <name>International Committee of the Red Cross</name>
+            <name xml:lang="fr">Comité international de la Croix-Rouge</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21044</code>
+            <name>International Council for the Control of Iodine Deficiency Disorders</name>
+            <name xml:lang="fr">Conseil international pour la lutte contre les troubles dus à une carence en iode</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21018</code>
+            <name>International Federation of Red Cross and Red Crescent Societies</name>
+            <name xml:lang="fr">Fédération internationale des Sociétés de la Croix-Rouge et du Croissant-Rouge</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21020</code>
+            <name>International HIV/AIDS Alliance</name>
+            <name xml:lang="fr">International HIV/AIDS Alliance</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21022</code>
+            <name>International Network for Alternative Financial Institutions</name>
+            <name xml:lang="fr">Réseau international d’institutions financières</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21042</code>
+            <name>International Peacebuilding Alliance</name>
+            <name xml:lang="fr">Alliance internationale pour la consolidation de la paix</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21023</code>
+            <name>International Planned Parenthood Federation</name>
+            <name xml:lang="fr">Fédération internationale pour le planning familial</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21061</code>
+            <name>International Rehabilitation Council for Torture Victims</name>
+            <name xml:lang="fr">Conseil international de réhabilitation pour les victimes de torture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21504</code>
+            <name>International Relief and Development</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21506</code>
+            <name>International Rescue Committee</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21034</code>
+            <name>International Union Against Tuberculosis and Lung Disease</name>
+            <name xml:lang="fr">Union Internationale Contre la Tuberculose et les Maladies Respiratoires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21053</code>
+            <name>IPAS-Protecting Women’s Health, Advancing Women’s Reproductive Rights</name>
+            <name xml:lang="fr">IPAS-Protecting Womens Health, Advancing Womens Reproductive Rights</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21054</code>
+            <name>Life and Peace Institute</name>
+            <name xml:lang="fr">Institut Vie et Paix</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21501</code>
+            <name>OXFAM International</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21507</code>
+            <name>Pact World</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21031</code>
+            <name>PANOS Institute</name>
+            <name xml:lang="fr">Institut PANOS</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21032</code>
+            <name>Population Services International</name>
+            <name xml:lang="fr">Organisation internationale pour les services en matière de population</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21505</code>
+            <name>Save the Children</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21041</code>
+            <name>Society for International Development</name>
+            <name xml:lang="fr">Société pour le développement international</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21062</code>
+            <name>The Nature Conservancy</name>
+            <name xml:lang="fr">The Nature Conservancy</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21036</code>
+            <name>World University Service</name>
+            <name xml:lang="fr">Entraide universitaire mondiale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21502</code>
+            <name>World Vision</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>22000</code>
+            <name>Donor country-based NGO</name>
+            <name xml:lang="fr">ONG basée dans un pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21047</code>
+            <name>AgriCord</name>
+            <name xml:lang="fr">AgriCord</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21060</code>
+            <name>Association for the Prevention of Torture</name>
+            <name xml:lang="fr">Association pour la prévention de la torture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21006</code>
+            <name>Development Gateway Foundation</name>
+            <name xml:lang="fr">Development Gateway Foundation</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21049</code>
+            <name>European Centre for Development Policy Management</name>
+            <name xml:lang="fr">Centre européen de gestion de politiques de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21008</code>
+            <name>Eurostep</name>
+            <name xml:lang="fr">Eurostep</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47042</code>
+            <name>Foundation for International Training</name>
+            <name xml:lang="fr">Fondation pour la formation internationale dans les pays du tiers monde</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21050</code>
+            <name>Geneva Call</name>
+            <name xml:lang="fr">Appel de Genève</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21014</code>
+            <name>Human Rights Information and Documentation Systems</name>
+            <name xml:lang="fr">Systèmes d’Information et de Documentation sur les Droits de l’Homme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21015</code>
+            <name>International Catholic Rural Association</name>
+            <name xml:lang="fr">Association internationale rurale catholique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21058</code>
+            <name>International Crisis Group</name>
+            <name xml:lang="fr">International Crisis Group</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21019</code>
+            <name>International Federation of Settlements and Neighbourhood Centres</name>
+            <name xml:lang="fr">Fédération internationale des centres sociaux et communautaires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21025</code>
+            <name>International Seismological Centre</name>
+            <name xml:lang="fr">Centre séismologique international</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21026</code>
+            <name>International Service for Human Rights</name>
+            <name xml:lang="fr">Service International pour les Droits de l’Homme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21027</code>
+            <name>ITF Enhancing Human Security</name>
+            <name xml:lang="fr">ITF Améliorer la sécurité humaine</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21040</code>
+            <name>International Women's Tribune Centre</name>
+            <name xml:lang="fr">Centre de la tribune internationale de la femme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>22501</code>
+            <name>OXFAM - provider country office</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>22502</code>
+            <name>Save the Children - donor country office</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21033</code>
+            <name>Transparency International</name>
+            <name xml:lang="fr">Transparency International</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21037</code>
+            <name>Women's World Banking</name>
+            <name xml:lang="fr">Banque mondiale des femmes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21035</code>
+            <name>World Organisation Against Torture</name>
+            <name xml:lang="fr">Organisation mondiale contre la torture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>23000</code>
+            <name>Developing country-based NGO</name>
+            <name xml:lang="fr">ONG basée dans un pays en développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21059</code>
+            <name>Africa Solidarity Fund</name>
+            <name xml:lang="fr">Fonds solidaire pour l'Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21048</code>
+            <name>Association of African Universities</name>
+            <name xml:lang="fr">Association des universités africaines</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21010</code>
+            <name>Forum for African Women Educationalists</name>
+            <name xml:lang="fr">Forum des éducatrices africaines</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21051</code>
+            <name>Institut Supérieur Panafricaine d’Economie Coopérative</name>
+            <name xml:lang="fr">Institut supérieur panafricaine d’economie coopérative</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21028</code>
+            <name>International University Exchange Fund - IUEF Stip. in Africa and Latin America</name>
+            <name xml:lang="fr">Fonds international d’échanges universitaires - Échanges intéressant l’Afrique et l’Amérique latine</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21003</code>
+            <name>Latin American Council for Social Sciences</name>
+            <name xml:lang="fr">Conseil latino-américain des sciences sociales</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>23501</code>
+            <name>National Red Cross and Red Crescent Societies</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21030</code>
+            <name>Pan African Institute for Development</name>
+            <name xml:lang="fr">Institut panafricain pour le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21055</code>
+            <name>Regional AIDS Training Network</name>
+            <name xml:lang="fr">Réseau régional de formation sur le SIDA</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30000</code>
+            <name>PUBLIC-PRIVATE PARTNERSHIPS (PPPs) and NETWORKS</name>
+            <name xml:lang="fr">PARTENARIATS PUBLIC-PRIVÉ ET RÉSEAUX</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31000</code>
+            <name>Public-Private Partnership (PPP)</name>
+            <name xml:lang="fr">Partenariat public-privé (PPP)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30008</code>
+            <name>Cities Alliance</name>
+            <name xml:lang="fr">Alliance pour les villes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30016</code>
+            <name>European Fund for Southeast Europe</name>
+            <name xml:lang="fr">European Fund for Southeast Europe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30007</code>
+            <name>Global Alliance for ICT and Development</name>
+            <name xml:lang="fr">Alliance mondiale pour les TIC et le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30001</code>
+            <name>Global Alliance for Improved Nutrition</name>
+            <name xml:lang="fr">Alliance mondiale pour une meilleure nutrition</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30012</code>
+            <name>Global Climate Partnership Fund</name>
+            <name xml:lang="fr">Global Climate Partnership Fund</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47043</code>
+            <name>Global Crop Diversity Trust</name>
+            <name xml:lang="fr">Global Crop Diversity Trust</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30015</code>
+            <name>Global Energy Efficiency and Renewable Energy Fund</name>
+            <name xml:lang="fr">Fonds mondial pour la promotion de l'efficacité énergétique et des énergies renouvelables</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30003</code>
+            <name>Global e-Schools and Communities Initiative</name>
+            <name xml:lang="fr">Initiative mondiale en faveur de l’informatique dans les écoles et dans les communautés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30004</code>
+            <name>Global Water Partnership</name>
+            <name xml:lang="fr">Partenariat mondial pour l'eau</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30005</code>
+            <name>International AIDS Vaccine Initiative</name>
+            <name xml:lang="fr">Initiative internationale pour un vaccin contre le SIDA</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30006</code>
+            <name>International Partnership on Microbicides</name>
+            <name xml:lang="fr">Partenariat international pour des microbicides</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30011</code>
+            <name>International Union for the Conservation of Nature</name>
+            <name xml:lang="fr">Union internationale pour la conservation de la nature</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30013</code>
+            <name>Microfinance Enhancement Facility</name>
+            <name xml:lang="fr">Mécanisme de soutien au microfinancement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30014</code>
+            <name>Regional Micro, Small and Medium Enterprise Investment Fund for Sub-Saharan Africa</name>
+            <name xml:lang="fr">Fonds régional d’investissement pour les très petites, petites et moyennes entreprises d’Afrique subsaharienne</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21056</code>
+            <name>Renewable Energy and Energy Efficiency Partnership</name>
+            <name xml:lang="fr">Partenariat pour les énergies renouvelables et l'efficience énergétique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30017</code>
+            <name>SANAD Fund for Micro, Small and Medium Enterprises</name>
+            <name xml:lang="fr">SANAD Fund for Micro, Small and Medium Enterprises</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30009</code>
+            <name>Small Arms Survey</name>
+            <name xml:lang="fr">Small Arms Survey</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>32000</code>
+            <name>Network</name>
+            <name xml:lang="fr">RÉSEAU</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47010</code>
+            <name>Commonwealth Agency for Public Administration and Management</name>
+            <name xml:lang="fr">Agence du Commonwealth pour l'administration et la gestion publiques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47028</code>
+            <name>Commonwealth Partnership for Technical Management</name>
+            <name xml:lang="fr">Partenariat pour la gestion technique (Commonwealth)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21043</code>
+            <name>European Parliamentarians for Africa</name>
+            <name xml:lang="fr">Association des parlementaires d’Europe pour l’Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31004</code>
+            <name>Extractive Industries Transparency Initiative International Secretariat</name>
+            <name xml:lang="fr">Secrétariat de l'Initiative pour la transparence dans les industries extractives</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31001</code>
+            <name>Global Development Network</name>
+            <name xml:lang="fr">Réseau de développement mondial</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31002</code>
+            <name>Global Knowledge Partnership</name>
+            <name xml:lang="fr">Alliance mondiale pour le savoir</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21017</code>
+            <name>International Centre for Trade and Sustainable Development</name>
+            <name xml:lang="fr">Centre international de commerce et de développement durable</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31003</code>
+            <name>International Land Coalition</name>
+            <name xml:lang="fr">Coalition internationale pour l'accès à la terre</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>31005</code>
+            <name>Parliamentary Network on the World Bank</name>
+            <name xml:lang="fr">Réseau parlementaire sur la Banque mondaile</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>40000</code>
+            <name>MULTILATERAL ORGANISATIONS</name>
+            <name xml:lang="fr">ORGANISATIONS MULTILATÉRALES</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41000</code>
+            <name>United Nations agency, fund or commission (UN)</name>
+            <name xml:lang="fr">Agence, fonds ou commission des Nations unies (NU)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41147</code>
+            <name>Central Emergency Response Fund</name>
+            <name xml:lang="fr">Fonds central pour les interventions d'urgence</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41101</code>
+            <name>Convention to Combat Desertification</name>
+            <name xml:lang="fr">Convention sur la lutte contre la désertification</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41102</code>
+            <name>Desert Locust Control Organisation for Eastern Africa</name>
+            <name xml:lang="fr">Organisation de lutte contre le criquet pèlerin dans l'Est Africain</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41106</code>
+            <name>Economic and Social Commission for Asia and the Pacific</name>
+            <name xml:lang="fr">Commission économique et sociale pour l'Asie et le Pacifique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41105</code>
+            <name>Economic and Social Commission for Western Asia</name>
+            <name xml:lang="fr">Commission économique et sociale pour l'Asie occidentale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41103</code>
+            <name>Economic Commission for Africa</name>
+            <name xml:lang="fr">Commission économique pour l'Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41104</code>
+            <name>Economic Commission for Latin America and the Caribbean</name>
+            <name xml:lang="fr">Commission économique pour l'Amérique latine et les Caraïbes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41301</code>
+            <name>Food and Agricultural Organisation</name>
+            <name xml:lang="fr">Organisation des Nations Unies pour l'alimentation et l'agriculture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41318</code>
+            <name>Global Mechanism</name>
+            <name xml:lang="fr">Mécanisme mondial</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41317</code>
+            <name>Green Climate Fund</name>
+            <name xml:lang="fr">Fonds vert pour le climat</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41312</code>
+            <name>International Atomic Energy Agency - assessed contributions</name>
+            <name xml:lang="fr">Agence internationale de l'énergie atomique - contributions obligatoires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41107</code>
+            <name>International Atomic Energy Agency (Contributions to Technical Cooperation Fund Only)</name>
+            <name xml:lang="fr">Agence internationale de l'énergie atomique (Contributions au Fonds de Coopération Technique uniquement)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41108</code>
+            <name>International Fund for Agricultural Development</name>
+            <name xml:lang="fr">Fonds international de développement agricole</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41302</code>
+            <name>International Labour Organisation - Assessed Contributions</name>
+            <name xml:lang="fr">Organisation internationale du travail - contributions obligatoires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41144</code>
+            <name>International Labour Organisation - Regular Budget Supplementary Account</name>
+            <name xml:lang="fr">Organisation internationale du Travail - Compte supplémentaire du budget ordinaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41145</code>
+            <name>International Maritime Organization - Technical Co-operation Fund</name>
+            <name xml:lang="fr">Organisation maritime internationale - Programme intégré de coopération technique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41303</code>
+            <name>International Telecommunications Union</name>
+            <name xml:lang="fr">Union internationale des télécommunications</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41110</code>
+            <name>Joint United Nations Programme on HIV/AIDS</name>
+            <name xml:lang="fr">Programme commun des Nations Unies sur le VIH/SIDA</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41305</code>
+            <name>United Nations</name>
+            <name xml:lang="fr">Organisation des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41111</code>
+            <name>United Nations Capital Development Fund</name>
+            <name xml:lang="fr">Fonds d’équipement des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41122</code>
+            <name>United Nations Children’s Fund</name>
+            <name xml:lang="fr">Fonds des Nations Unies pour l'enfance</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41112</code>
+            <name>United Nations Conference on Trade and Development</name>
+            <name xml:lang="fr">Conférence des Nations Unies sur le commerce et le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41142</code>
+            <name>United Nations Democracy Fund</name>
+            <name xml:lang="fr">Fonds des Nations Unies pour la démocratie</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41310</code>
+            <name>United Nations Department of Peacekeeping Operations [only MINURSO, MINUSCA, MINUSMA, MINUSTAH, MONUSCO, UNAMID, UNIFIL, UNISFA, UNMIK, UNMIL, UNMISS, UNOCI]. Report contributions mission by mission in CRS++.</name>
+            <name xml:lang="fr">Département des opérations de maintien de la paix des Nations unies [seulement MINURSO, MINUSCA, MINUSMA, MINUSTAH, MONUSCO, MINUAD, FINUL, FISNUA, MINUK, MINUL, UNMISS, ONUCI]. Notifier les contributions mission par mission au format SNPC++.</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41148</code>
+            <name>United Nations Department of Political Affairs, Trust Fund in Support of Political Affairs</name>
+            <name xml:lang="fr">Département des affaires politiques des Nations unies, fonds fiduciaire de soutien aux affaires politiques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41114</code>
+            <name>United Nations Development Programme</name>
+            <name xml:lang="fr">Programme des Nations Unies pour le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41314</code>
+            <name>United Nations Economic Commission for Europe (extrabudgetary contributions only)</name>
+            <name xml:lang="fr">Commission économique des Nations unies pour l'Europe (contributions extrabudgétaires uniquement)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41304</code>
+            <name>United Nations Educational, Scientific and Cultural Organisation</name>
+            <name xml:lang="fr">Organisation des Nations Unies pour l’éducation, la science et la culture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41146</code>
+            <name>United Nations Entity for Gender Equality and the Empowerment of Women</name>
+            <name xml:lang="fr">Entité des Nations Unies pour l'égalité des sexes et l'autonomisation de la femme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41116</code>
+            <name>United Nations Environment Programme</name>
+            <name xml:lang="fr">Programme des Nations Unies pour l'environnement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41316</code>
+            <name>United Nations Framework Convention on Climate Change</name>
+            <name xml:lang="fr">Convention-cadre des Nations unies sur les changements climatiques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41313</code>
+            <name>United Nations High Commissioner for Human Rights (extrabudgetary contributions only)</name>
+            <name xml:lang="fr">Haut-Commissariat des Nations unies aux droits de l'homme (contributions extrabudgétaires uniquement)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41120</code>
+            <name>United Nations Human Settlement Programme</name>
+            <name xml:lang="fr">Programme des Nations Unies pour les établissements humains</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41123</code>
+            <name>United Nations Industrial Development Organisation</name>
+            <name xml:lang="fr">Organisation des Nations Unies pour le développement industriel</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41125</code>
+            <name>United Nations Institute for Training and Research</name>
+            <name xml:lang="fr">Institut des Nations Unies pour la formation et la recherche</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41315</code>
+            <name>United Nations International Strategy for Disaster Reduction</name>
+            <name xml:lang="fr">Stratégie internationale des Nations Unies pour la prévention de catastrophes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41126</code>
+            <name>United Nations Mine Action Service</name>
+            <name xml:lang="fr">Service de l'action antimines des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41502</code>
+            <name>United Nations Office for Project Services</name>
+            <name xml:lang="fr">Le Bureau des Nations Unies pour les services d'appui aux projets</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41127</code>
+            <name>United Nations Office of Co-ordination of Humanitarian Affairs</name>
+            <name xml:lang="fr">Bureau des Nations Unies pour la coordination de l'assistance humanitaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41121</code>
+            <name>United Nations Office of the United Nations High Commissioner for Refugees</name>
+            <name xml:lang="fr">Haut Commissariat des Nations Unies pour les réfugiés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41128</code>
+            <name>United Nations Office on Drugs and Crime</name>
+            <name xml:lang="fr">Office des Nations Unies contre la drogue et le crime</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41311</code>
+            <name>United Nations Peacebuilding Fund (Window One:  Flexible Contributions Only)</name>
+            <name xml:lang="fr">Fonds des Nations Unies pour la consolidation de la paix (Guichet un:  contributions sans conditions)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41141</code>
+            <name>United Nations Peacebuilding Fund (Window Two:  Restricted Contributions Only)</name>
+            <name xml:lang="fr">Fonds des Nations Unies pour la consolidation de la paix (Guichet deux:  contributions réservées)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41119</code>
+            <name>United Nations Population Fund</name>
+            <name xml:lang="fr">Fonds des Nations Unies pour la population</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41501</code>
+            <name>United Nations Reducing Emissions from Deforestation and Forest Degradation</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41130</code>
+            <name>United Nations Relief and Works Agency for Palestine Refugees in the Near East</name>
+            <name xml:lang="fr">Office de secours et de travaux des Nations Unies pour les réfugiés de Palestine dans le Proche-Orient</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41129</code>
+            <name>United Nations Research Institute for Social Development</name>
+            <name xml:lang="fr">Institut de recherche des Nations Unies pour le développement social</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41133</code>
+            <name>United Nations Special Initiative on Africa</name>
+            <name xml:lang="fr">Initiative spéciale des Nations Unies pour l'Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41131</code>
+            <name>United Nations System Staff College</name>
+            <name xml:lang="fr">Ecole des cadres du système des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41132</code>
+            <name>United Nations System Standing Committee on Nutrition</name>
+            <name xml:lang="fr">Comité permanent de la nutrition du système des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41134</code>
+            <name>United Nations University (including Endowment Fund)</name>
+            <name xml:lang="fr">Université des Nations Unies (y compris le Fonds de dotation)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41137</code>
+            <name>United Nations Voluntary Fund for Technical Co-operation in the Field of Human Rights</name>
+            <name xml:lang="fr">Fonds de contributions volontaires des Nations Unies pour la coopération technique dans le domaine des droits de l'homme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41138</code>
+            <name>United Nations Voluntary Fund for Victims of Torture</name>
+            <name xml:lang="fr">Fonds de contributions volontaires des Nations Unies pour les victimes de la torture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41136</code>
+            <name>United Nations Voluntary Fund on Disability</name>
+            <name xml:lang="fr">Fonds de contributions voluntaires des Nations Unies pour les handicapés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41135</code>
+            <name>United Nations Volunteers</name>
+            <name xml:lang="fr">Programme des volontaires des Nations Unies</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41306</code>
+            <name>Universal Postal Union</name>
+            <name xml:lang="fr">Union postale universelle</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>41503</code>
+            <name>UN-led Country-based Pooled Funds</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41140</code>
+            <name>World Food Programme</name>
+            <name xml:lang="fr">Programme alimentaire mondial</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41307</code>
+            <name>World Health Organisation - assessed contributions</name>
+            <name xml:lang="fr">Organisation mondiale de la santé - contributions obligatoires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41143</code>
+            <name>World Health Organisation - core voluntary contributions account</name>
+            <name xml:lang="fr">Organisation mondiale de la santé - compte de contributions volontaires sans objet désigné</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41308</code>
+            <name>World Intellectual Property Organisation</name>
+            <name xml:lang="fr">Organisation mondiale de la propriété intellectuelle</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>41309</code>
+            <name>World Meteorological Organisation</name>
+            <name xml:lang="fr">Organisation météorologique mondiale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>41319</code>
+            <name>World Tourism Organization</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>42000</code>
+            <name>European Union Institution (EU)</name>
+            <name xml:lang="fr">Institution de l’Union européenne (UE)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>42001</code>
+            <name>European Commission - Development Share of Budget</name>
+            <name xml:lang="fr">Commission européenne - partie du budget affectée au développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>42003</code>
+            <name>European Commission - European Development Fund</name>
+            <name xml:lang="fr">Commission européenne - Fonds européen de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>42004</code>
+            <name>European Investment Bank</name>
+            <name xml:lang="fr">Banque européenne d'investissement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43000</code>
+            <name>International Monetary Fund (IMF)</name>
+            <name xml:lang="fr">Fonds monétaire international (FMI)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43005</code>
+            <name>International Monetary Fund - Post-Catastrophe Debt Relief Trust</name>
+            <name xml:lang="fr">Fonds monétaire international  - Fonds fiduciaire pour l'allégement de la dette après une catastrophe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43002</code>
+            <name>International Monetary Fund - Poverty Reduction and Growth - Heavily Indebted Poor Countries Debt Relief Initiative Trust Fund [includes HIPC, Extended Credit Facility (ECF), and ECF-HIPC sub-accounts]</name>
+            <name xml:lang="fr">Fonds monétaire international – Réduction de la pauvreté et croissance – Initiative d’allègement de la dette en faveur des pays pauvres très endettés [y compris Initiative PPTE, Facilité élargie de crédit (FEC) et sous-comptes (FEC-PPTE)]</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43004</code>
+            <name>International Monetary Fund - Poverty Reduction and Growth - Multilateral Debt Relief Initiative Trust</name>
+            <name xml:lang="fr">Fonds monétaire international – Facilité pour la réduction de la pauvreté et pour la croissance – Initiative d’allègement de la dette multilatérale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43001</code>
+            <name>International Monetary Fund - Poverty Reduction and Growth Trust</name>
+            <name xml:lang="fr">Fonds monétaire international – Facilité pour la réduction de la pauvreté et pour la croissance</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>43003</code>
+            <name>International Monetary Fund - Subsidization of Emergency Post Conflict Assistance/Emergency Assistance for Natural Disasters for PRGT-eligible members</name>
+            <name xml:lang="fr">Fonds monétaire international – Aide d’urgence après un conflit (EPCA) et aide d’urgence à la suite de catastrophes naturelles (ENDA) pour les membres pouvant bénéficier de la FRPC</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>43006</code>
+            <name>Catastrophe Containment and Relief Trust</name>
+            <name xml:lang="fr">Fonds fiduciaire d’assistance et de riposte aux catastrophes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44000</code>
+            <name>World Bank Group (WB)</name>
+            <name xml:lang="fr">Groupe de la Banque mondiale (BM)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44006</code>
+            <name>Advance Market Commitments</name>
+            <name xml:lang="fr">Garanties de marché</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44001</code>
+            <name>International Bank for Reconstruction and Development</name>
+            <name xml:lang="fr">Banque internationale pour la reconstruction et le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44002</code>
+            <name>International Development Association</name>
+            <name xml:lang="fr">Association internationale de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44003</code>
+            <name>International Development Association - Heavily Indebted Poor Countries Debt Initiative Trust Fund</name>
+            <name xml:lang="fr">Association internationale de développement - Fonds fiduciaire de l'IDA en faveur des pays pauvres très endettés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44007</code>
+            <name>International Development Association - Multilateral Debt Relief Initiative</name>
+            <name xml:lang="fr">Association internationale de développement - Initiative d’allégement de la dette multilatérale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44004</code>
+            <name>International Finance Corporation</name>
+            <name xml:lang="fr">Société financière internationale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>44005</code>
+            <name>Multilateral Investment Guarantee Agency</name>
+            <name xml:lang="fr">Agence multilatérale de garantie des investissements</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>45000</code>
+            <name>World Trade Organisation</name>
+            <name xml:lang="fr">Organisation mondiale du commerce (OMC)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>45002</code>
+            <name>World Trade Organisation - Advisory Centre on WTO Law</name>
+            <name xml:lang="fr">Centre consultatif sur la législation de l'Organisation mondiale du commerce</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>45003</code>
+            <name>World Trade Organisation - Doha Development Agenda Global Trust Fund</name>
+            <name xml:lang="fr">Organisation mondiale du commerce - Fonds global d'affectation spéciale pour le Programme de Doha pour le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>45001</code>
+            <name>World Trade Organisation - International Trade Centre</name>
+            <name xml:lang="fr">Centre du commerce international de l'Organisation mondiale du commerce</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46000</code>
+            <name>Regional Development Bank</name>
+            <name xml:lang="fr">Banque régionale de développement (BRD)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46002</code>
+            <name>African Development Bank</name>
+            <name xml:lang="fr">Banque africaine de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46003</code>
+            <name>African Development Fund</name>
+            <name xml:lang="fr">Fonds africain de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46022</code>
+            <name>African Export Import Bank</name>
+            <name xml:lang="fr">Banque Africaine d'Import-Export</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46008</code>
+            <name>Andean Development Corporation</name>
+            <name xml:lang="fr">Société andine de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46004</code>
+            <name>Asian Development Bank</name>
+            <name xml:lang="fr">Banque asiatique de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46005</code>
+            <name>Asian Development Fund</name>
+            <name xml:lang="fr">Fonds asiatique de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>46026</code>
+            <name>Asian Infrastructure Investment Bank</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46006</code>
+            <name>Black Sea Trade and Development Bank</name>
+            <name xml:lang="fr">Black Sea Trade and Development Bank</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46009</code>
+            <name>Caribbean Development Bank</name>
+            <name xml:lang="fr">Banque de développement des Caraïbes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46020</code>
+            <name>Central African States Development Bank</name>
+            <name xml:lang="fr">Banque de développement des États de l'Afrique Centrale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46007</code>
+            <name>Central American Bank for Economic Integration</name>
+            <name xml:lang="fr">Banque centroaméricaine d'intégration économique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46024</code>
+            <name>Council of Europe Development Bank</name>
+            <name xml:lang="fr">Banque de Développement du Conseil de l'Europe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46023</code>
+            <name>Eastern and Southern African Trade and Development Bank</name>
+            <name xml:lang="fr">Banque de l’Afrique de l’Est et de l’Afrique Australe pour le Commerce et le Développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46015</code>
+            <name>European Bank for Reconstruction and Development</name>
+            <name xml:lang="fr">Banque européenne pour la reconstruction et le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46018</code>
+            <name>European Bank for Reconstruction and Development - Early Transition Countries Fund</name>
+            <name xml:lang="fr">Banque européenne de reconstruction et de développement - Initiative en faveur des pays en transition précoce</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46017</code>
+            <name>European Bank for Reconstruction and Development – technical co-operation and special funds (all EBRD countries of operations)</name>
+            <name xml:lang="fr">Banque européenne pour la reconstruction et le développement - coopération technique et fonds spéciaux (tous pays)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46016</code>
+            <name>European Bank for Reconstruction and Development – technical co-operation and special funds (ODA-eligible countries only)</name>
+            <name xml:lang="fr">Banque européenne pour la reconstruction et le développement - coopération technique et fonds spéciaux (pays éligibles à l'APD)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46019</code>
+            <name>European Bank for Reconstruction and Development - Western Balkans Joint Trust Fund</name>
+            <name xml:lang="fr">Banque européenne de reconstruction et de développement - Fonds spécial pour les Balkans occidentaux</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46013</code>
+            <name>Inter-American Development Bank, Fund for Special Operations</name>
+            <name xml:lang="fr">Banque interaméricaine de développement, Fonds opérations spécial</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46012</code>
+            <name>Inter-American Development Bank, Inter-American Investment Corporation and Multilateral Investment Fund</name>
+            <name xml:lang="fr">Banque interaméricaine de développement, Société interaméricaine d'investissements, Fonds multilatéral d'investissements</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46025</code>
+            <name>Islamic Development Bank</name>
+            <name xml:lang="fr">Banque Islamique de Développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>46021</code>
+            <name>West African Development Bank</name>
+            <name xml:lang="fr">Banque ouest-africaine de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47000</code>
+            <name>Other multilateral institution</name>
+            <name xml:lang="fr">Autre institution multilatérale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47111</code>
+            <name>Adaptation Fund</name>
+            <name xml:lang="fr">Fonds pour l’adaptation</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47009</code>
+            <name>African and Malagasy Council for Higher Education</name>
+            <name xml:lang="fr">Conseil africain et malgache pour l'enseignement supérieur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47001</code>
+            <name>African Capacity Building Foundation</name>
+            <name xml:lang="fr">Fondation pour le renforcement des capacités en Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47137</code>
+            <name>African Risk Capacity Group</name>
+            <name xml:lang="fr">Mutuelle panafricaine de gestion des risques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47141</code>
+            <name>African Tax Administration Forum</name>
+            <name xml:lang="fr">Forum sur l’Administration Fiscale Africaine</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47005</code>
+            <name>African Union (excluding peacekeeping facilities)</name>
+            <name xml:lang="fr">Union Africaine (à l'exclusion de la Facilité de soutien à la paix)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21002</code>
+            <name>Agency for International Trade Information and Co-operation</name>
+            <name xml:lang="fr">Agence de coopération et d'information pour le commerce international</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47002</code>
+            <name>Asian Productivity Organisation</name>
+            <name xml:lang="fr">Organisation asiatique de productivité</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47109</code>
+            <name>Asia-Pacific Economic Cooperation Support Fund (except contributions tied to counter-terrorism activities)</name>
+            <name xml:lang="fr">Fonds de soutien de la coopération économique Asie-Pacifique (hors lutte contre le terrorisme)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47068</code>
+            <name>Asia-Pacific Fishery Commission</name>
+            <name xml:lang="fr">Commission Asie-Pacifique des pêches</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47003</code>
+            <name>Association of South East Asian Nations: Economic Co-operation</name>
+            <name xml:lang="fr">Association des nations de l'Asie du Sud-Est - coopération économique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47011</code>
+            <name>Caribbean Community Secretariat</name>
+            <name xml:lang="fr">Secrétariat de la Communauté des Caraïbes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47012</code>
+            <name>Caribbean Epidemiology Centre</name>
+            <name xml:lang="fr">Centre épidémiologique des Caraïbes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-08-08">
+            <code>47145</code>
+            <name>Center of Excellence in Finance</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47112</code>
+            <name>Central European Initiative - Special Fund for Climate and Environmental Protection</name>
+            <name xml:lang="fr">Initiative de l’Europe centrale -  Fonds Spécial pour la protection climatique et environnementale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47015</code>
+            <name>CGIAR Fund</name>
+            <name xml:lang="fr">CGIAR Fund</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47134</code>
+            <name>Clean Technology Fund</name>
+            <name xml:lang="fr">Fonds pour les technologies propres</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47027</code>
+            <name>Colombo Plan</name>
+            <name xml:lang="fr">Plan de Colombo</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47105</code>
+            <name>Common Fund for Commodities</name>
+            <name xml:lang="fr">Fonds commun pour les produits de base</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47013</code>
+            <name>Commonwealth Foundation</name>
+            <name xml:lang="fr">Fondation du Commonwealth</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47025</code>
+            <name>Commonwealth of Learning</name>
+            <name xml:lang="fr">Commonwealth of Learning</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47132</code>
+            <name>Commonwealth Secretariat (ODA-eligible contributions only)</name>
+            <name xml:lang="fr">Secrétariat du Commonwealth (seulement les contributions éligibles à l'APD)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47026</code>
+            <name>Community of Portuguese Speaking Countries</name>
+            <name xml:lang="fr">Communauté des pays de langue portugaise</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47022</code>
+            <name>Convention on International Trade in Endangered Species of Wild Flora and Fauna</name>
+            <name xml:lang="fr">Convention sur le commerce international des espèces de faune et de flore sauvages menacées d'extinction</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47138</code>
+            <name>Council of Europe</name>
+            <name xml:lang="fr">Conseil de l’Europe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47037</code>
+            <name>Eastern-Regional Organisation of Public Administration</name>
+            <name xml:lang="fr">Organisation régionale de l'Orient pour l'administration publique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47113</code>
+            <name>Economic and Monetary Community of Central Africa</name>
+            <name xml:lang="fr">Communauté économique et monétaire de l’Afrique Centrale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47034</code>
+            <name>Economic Community of West African States</name>
+            <name xml:lang="fr">Communauté économique des Etats de l’Afrique de l’Ouest</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47036</code>
+            <name>European and Mediterranean Plant Protection Organisation</name>
+            <name xml:lang="fr">Organisation Européenne et Méditerranéenne pour la Protection des Plantes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47504</code>
+            <name>Forest Carbon Partnership Facility</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47040</code>
+            <name>Forum Fisheries Agency</name>
+            <name xml:lang="fr">Agence des pêches</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47106</code>
+            <name>Geneva Centre for the Democratic Control of Armed Forces</name>
+            <name xml:lang="fr">Centre de contrôle démocratique des forces armées - Genève</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47123</code>
+            <name>Geneva International Centre for Humanitarian Demining</name>
+            <name xml:lang="fr">Centre International de Déminage Humanitaire Genève</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47503</code>
+            <name>Global Agriculture and Food Security Program</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47122</code>
+            <name>Global Alliance for Vaccines and Immunization</name>
+            <name xml:lang="fr">Alliance mondiale pour la vaccination et l’immunisation</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47129</code>
+            <name>Global Environment Facility - Least Developed Countries Fund</name>
+            <name xml:lang="fr">FEM Fonds pour les pays les moins avancés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47130</code>
+            <name>Global Environment Facility - Special Climate Change Fund</name>
+            <name xml:lang="fr">FEM Fonds spécial pour les changements climatiques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47044</code>
+            <name>Global Environment Facility Trust Fund</name>
+            <name xml:lang="fr">Fonds pour l'environnement mondial - fonds fiduciaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47502</code>
+            <name>Global Fund for Disaster Risk Reduction</name>
+            <name xml:lang="fr"/>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47045</code>
+            <name>Global Fund to Fight AIDS, Tuberculosis and Malaria</name>
+            <name xml:lang="fr">Fonds mondial de lutte contre le SIDA, la tuberculose et la paludisme</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47136</code>
+            <name>Global Green Growth Institute</name>
+            <name xml:lang="fr">Institut mondial de la croissance verte</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47501</code>
+            <name>Global Partnership for Education</name>
+            <name xml:lang="fr">Partenariat Mondial pour l'Education</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47116</code>
+            <name>Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries</name>
+            <name xml:lang="fr">Cadre intégré pour l'assistance technique liée au commerce en faveur des pays les moins avancés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47061</code>
+            <name>Inter-American Institute for Co-operation on Agriculture</name>
+            <name xml:lang="fr">Institut interaméricain de coopération pour l’agriculture</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47065</code>
+            <name>Intergovernmental Oceanographic Commission</name>
+            <name xml:lang="fr">Commission océanographique intergouvernementale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47067</code>
+            <name>Intergovernmental Panel on Climate Change</name>
+            <name xml:lang="fr">Groupe d’experts intergouvernemental sur l’évolution du climat</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47019</code>
+            <name>International Centre for Advanced Mediterranean Agronomic Studies</name>
+            <name xml:lang="fr">Centre international de hautes études agronomique méditerranéennes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47050</code>
+            <name>International Cotton Advisory Committee</name>
+            <name xml:lang="fr">Comité consultatif international du coton</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47059</code>
+            <name>International Development Law Organisation</name>
+            <name xml:lang="fr">Organisation internationale de droit du développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>30010</code>
+            <name>International drug purchase facility</name>
+            <name xml:lang="fr">Facilité internationale d'achat de médicaments</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47107</code>
+            <name>International Finance Facility for Immunisation</name>
+            <name xml:lang="fr">Facilité internationale de financement pour la vaccination</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47058</code>
+            <name>International Institute for Democracy and Electoral Assistance</name>
+            <name xml:lang="fr">International Institute for Democracy and Electoral Assistance</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47064</code>
+            <name>International Network for Bamboo and Rattan</name>
+            <name xml:lang="fr">Réseau International sur le bambou et le rotin</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47066</code>
+            <name>International Organisation for Migration</name>
+            <name xml:lang="fr">Organisation internationale des migrations</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47046</code>
+            <name>International Organisation of the Francophonie</name>
+            <name xml:lang="fr">Organisation internationale de la Francophonie</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47073</code>
+            <name>International Tropical Timber Organisation</name>
+            <name xml:lang="fr">Organisation Internationale des Bois Tropicaux</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47074</code>
+            <name>International Vaccine Institute</name>
+            <name xml:lang="fr">Institut international de vaccins</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47076</code>
+            <name>Justice Studies Centre of the Americas</name>
+            <name xml:lang="fr">Centre d’études sur la justice dans les Amériques</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47127</code>
+            <name>Latin-American Energy Organisation</name>
+            <name xml:lang="fr">Organisation latino-américaine de l'énergie</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47077</code>
+            <name>Mekong River Commission</name>
+            <name xml:lang="fr">Commission du Mékong</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47078</code>
+            <name>Multilateral Fund for the Implementation of the Montreal Protocol</name>
+            <name xml:lang="fr">Fonds multilatéral pour l’application du Protocole de Montréal</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47117</code>
+            <name>New Partnership for Africa's Development</name>
+            <name xml:lang="fr">Nouveau Partenariat pour le développement de l’Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47128</code>
+            <name>Nordic Development Fund</name>
+            <name xml:lang="fr">Nordic Development Fund</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47081</code>
+            <name>OECD Development Centre</name>
+            <name xml:lang="fr">OCDE Centre de développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47142</code>
+            <name>OPEC Fund for International Development</name>
+            <name xml:lang="fr">Le Fonds OPEP pour le développement international</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47080</code>
+            <name>Organisation for Economic Co-operation and Development (Contributions to special funds for Technical Co-operation Activities Only)</name>
+            <name xml:lang="fr">Organisation de Coopération et de développement économiques (contributions aux fonds spéciaux pour les activités de coopération technique uniquement)</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47079</code>
+            <name>Organisation of American States</name>
+            <name xml:lang="fr">Organisation des États américains</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47082</code>
+            <name>Organisation of Eastern Caribbean States</name>
+            <name xml:lang="fr">Organisation des États des Caraïbes orientales</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47140</code>
+            <name>Organisation of Ibero-American States for Education, Science and Culture</name>
+            <name xml:lang="fr">Organización de Estados Iberoamericanos</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47110</code>
+            <name>Organisation of the Black Sea Economic Cooperation</name>
+            <name xml:lang="fr">Organisation de coopération économique de la mer Noire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47131</code>
+            <name>Organization for Security and Co-operation in Europe</name>
+            <name xml:lang="fr">Organisation pour la sécurité et la oopération en Europe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47087</code>
+            <name>Pacific Islands Forum Secretariat</name>
+            <name xml:lang="fr">Secrétariat du Forum des Iles du Pacifique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47097</code>
+            <name>Pacific Regional Environment Programme</name>
+            <name xml:lang="fr">Programme régional océanien de l’environnement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47083</code>
+            <name>Pan-American Health Organisation</name>
+            <name xml:lang="fr">Organisation panaméricaine de la santé</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47084</code>
+            <name>Pan-American Institute of Geography and History</name>
+            <name xml:lang="fr">Institut panaméricain de géographie et d’histoire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47086</code>
+            <name>Private Infrastructure Development Group</name>
+            <name xml:lang="fr">Private Infrastructure Development Group</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47118</code>
+            <name>Regional Organisation for the Strengthening of Supreme Audit Institutions of Francophone Sub-Saharan Countries</name>
+            <name xml:lang="fr">Conseil Régional de Formation des Institutions Supérieures de Contrôle des Finances Publiques d’Afrique Francophone Subsaharienne</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47119</code>
+            <name>Sahara and Sahel Observatory</name>
+            <name xml:lang="fr">Observatoire du Sahara et du Sahel</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47029</code>
+            <name>Sahel and West Africa Club</name>
+            <name xml:lang="fr">Club du Sahel et de l’Afrique de l’Ouest</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47096</code>
+            <name>Secretariat of the Pacific Community</name>
+            <name xml:lang="fr">Secrétariat Général de la Communauté du Pacifique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47120</code>
+            <name>South Asian Association for Regional Cooperation</name>
+            <name xml:lang="fr">Association de l'Asie du Sud pour la coopération régionale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47092</code>
+            <name>South East Asian Fisheries Development Centre</name>
+            <name xml:lang="fr">Centre de développement des pêches de l’Asie du Sud-Est</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47093</code>
+            <name>South East Asian Ministers of Education</name>
+            <name xml:lang="fr">Organisation des Ministres de l’éducation de l’Asie du Sud-Est</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47095</code>
+            <name>South Pacific Board for Educational Assessment</name>
+            <name xml:lang="fr">Conseil d’évaluation du Pacifique Sud pour l'éducation</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47089</code>
+            <name>Southern African Development Community</name>
+            <name xml:lang="fr">Communauté pour le développement de l’Afrique australe</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47135</code>
+            <name>Strategic Climate Fund</name>
+            <name xml:lang="fr">Fonds stratégique pour le climat</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47121</code>
+            <name>United Cities and Local Governments of Africa</name>
+            <name xml:lang="fr">Cités et gouvernements locaux unis d’Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47098</code>
+            <name>Unrepresented Nations and Peoples’ Organisation</name>
+            <name xml:lang="fr">Organisation des peuples et des nations non représentés</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47100</code>
+            <name>West African Monetary Union</name>
+            <name xml:lang="fr">Union monétaire ouest-africaine</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47139</code>
+            <name>World Customs Organization Customs Co-operation Fund</name>
+            <name xml:lang="fr">Organisation Mondiale des Douanes Fonds de coopération douanière</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>47143</code>
+            <name>Global Community Engagement and Resilience Fund</name>
+            <name xml:lang="fr">Fonds mondial pour l’engagement de la communauté et la résilience</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2016-07-06">
+            <code>47144</code>
+            <name>International Renewable Energy Agency</name>
+            <name xml:lang="fr">Agence internationale pour les energies renouvelables</name>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2015-12-07" withdrawal-date="2017-05-09">
+            <code>50000</code>
+            <name>Other</name>
+            <name xml:lang="fr">Autre</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>51000</code>
+            <name>University, college or other teaching institution, research institute or think‑tank</name>
+            <name xml:lang="fr">Université, institut d’éducation et autre institution d’enseignement, institut de recherche ou groupe de réflexion</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47101</code>
+            <name>Africa Rice Centre</name>
+            <name xml:lang="fr">Centre du riz pour l’Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47069</code>
+            <name>Bioversity International</name>
+            <name xml:lang="fr">Bioversity International</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47018</code>
+            <name>Centre for International Forestry Research</name>
+            <name xml:lang="fr">Centre de recherche forestière internationale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21004</code>
+            <name>Council for the Development of Economic and Social Research in Africa</name>
+            <name xml:lang="fr">Conseil pour le développement de la recherche en sciences sociales en Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47041</code>
+            <name>Food and Fertilizer Technology Centre</name>
+            <name xml:lang="fr">Centre des techniques de l'alimentation et des engrais</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21009</code>
+            <name>Forum for Agricultural Research in Africa</name>
+            <name xml:lang="fr">Forum pour la recherche agricole en Afrique</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47047</code>
+            <name>International African Institute</name>
+            <name xml:lang="fr">Institut international africain</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47051</code>
+            <name>International Centre for Agricultural Research in Dry Areas</name>
+            <name xml:lang="fr">Centre international de recherche agricole dans les zones arides</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47055</code>
+            <name>International Centre for Development Oriented Research in Agriculture</name>
+            <name xml:lang="fr">Centre International pour la Recherche Agricole orientée vers le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47053</code>
+            <name>International Centre for Diarrhoeal Disease Research, Bangladesh</name>
+            <name xml:lang="fr">International Centre for Diarrhoeal Disease Research, Bangladesh</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47017</code>
+            <name>International Centre for Tropical Agriculture</name>
+            <name xml:lang="fr">Centre international d'agriculture tropicale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47054</code>
+            <name>International Centre of Insect Physiology and Ecology</name>
+            <name xml:lang="fr">Centre international sur la physiologie et l’écologie des insectes</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47057</code>
+            <name>International Crop Research for Semi-Arid Tropics</name>
+            <name xml:lang="fr">Institut international de recherche sur les cultures des zones tropicales semi-arides</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>51001</code>
+            <name>International Food Policy Research Institute</name>
+            <name xml:lang="fr">Institut International de Recherche sur les Politiques Alimentaires</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21021</code>
+            <name>International Institute for Environment and Development</name>
+            <name xml:lang="fr">Institut international pour l’environnement et le développement</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>21039</code>
+            <name>International Institute for Sustainable Development</name>
+            <name xml:lang="fr">Institut international de développement durable</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47062</code>
+            <name>International Institute of Tropical Agriculture</name>
+            <name xml:lang="fr">Institut international d’agriculture tropicale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47063</code>
+            <name>International Livestock Research Institute</name>
+            <name xml:lang="fr">International Livestock Research Institute</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47020</code>
+            <name>International Maize and Wheat Improvement Centre</name>
+            <name xml:lang="fr">Centre international d’amélioration du maïs et du blé</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47021</code>
+            <name>International Potato Centre</name>
+            <name xml:lang="fr">Centre international de la pomme de terre</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47070</code>
+            <name>International Rice Research Institute</name>
+            <name xml:lang="fr">Institut international de recherche sur le riz</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47071</code>
+            <name>International Seed Testing Association</name>
+            <name xml:lang="fr">Association internationale d’essais de semences</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47075</code>
+            <name>International Water Management Institute</name>
+            <name xml:lang="fr">Institut international de gestion des ressources en eau</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47099</code>
+            <name>University of the South Pacific</name>
+            <name xml:lang="fr">Université du Pacifique Sud</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47056</code>
+            <name>World AgroForestry Centre</name>
+            <name xml:lang="fr">Centre mondial de l’agroforesterie</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47103</code>
+            <name>World Maritime University</name>
+            <name xml:lang="fr">Université maritime mondiale</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47008</code>
+            <name>World Vegetable Centre</name>
+            <name xml:lang="fr">Centre international de cultures maraîchères</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2015-12-07">
+            <code>47104</code>
+            <name>WorldFish Centre</name>
+            <name xml:lang="fr">Centre international pour l’aménagement des ressources bioaquatiques</name>
+        </codelist-item>
+        <codelist-item status="withdrawn" activation-date="2015-12-07">
+            <code>52000</code>
+            <name>Other</name>
+            <name xml:lang="fr">Autre</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>60000</code>
+            <name>Private sector institution</name>
+            <name xml:lang="fr">Institutions du Secteur Privé</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>61000</code>
+            <name>Private sector in provider country</name>
+            <name xml:lang="fr">Secteur privé du pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>61001</code>
+            <name>Private bank in provider country</name>
+            <name xml:lang="fr">Banque privée dans le pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>61002</code>
+            <name>Private exporter in provider country</name>
+            <name xml:lang="fr">Exportateur privé dans le pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>61003</code>
+            <name>Private investor in provider country</name>
+            <name xml:lang="fr">Investisseur privé dans le pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>61004</code>
+            <name>Other non-bank entity in provider country</name>
+            <name xml:lang="fr">Autre entité non-bancaire dans le pays donneur</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>62000</code>
+            <name>Private sector in recipient country</name>
+            <name xml:lang="fr">Secteur privé du pays bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>62001</code>
+            <name>Private bank in recipient country</name>
+            <name xml:lang="fr">Banque privée dans le pays bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>62002</code>
+            <name>Joint-venture in recipient country</name>
+            <name xml:lang="fr">Co-entreprise dans le pays bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>62003</code>
+            <name>Other non-bank in recipient country</name>
+            <name xml:lang="fr">Autre entité non-bancaire dans le pays bénéficiaire</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>63000</code>
+            <name>Private sector in third country</name>
+            <name xml:lang="fr">Secteur privé d'un pays tiers</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>63001</code>
+            <name>Private bank in third country</name>
+            <name xml:lang="fr">Banque privée d'un pays tiers</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>63002</code>
+            <name>Private non-bank in third country</name>
+            <name xml:lang="fr">Secteur privé non-bancaire dans un pays tiers</name>
+        </codelist-item>
+        <codelist-item status="active" activation-date="2017-03-31">
+            <code>90000</code>
+            <name>Other</name>
+            <name xml:lang="fr">Autre</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

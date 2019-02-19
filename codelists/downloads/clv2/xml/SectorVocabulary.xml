@@ -1,0 +1,91 @@
+<codelist name="SectorVocabulary" xml:lang="en" complete="1" embedded="0">
+    <metadata>
+        <name>Sector Vocabulary</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+            <name>OECD DAC CRS Purpose Codes (5 digit)</name>
+            <name xml:lang="fr">Codes-objet à cinq chiffres du Système de notification des pays créanciers du Comité d'aide au développement de l'OCDE</name>
+            <description>The sector reported corresponds to an OECD DAC CRS 5-digit purpose code</description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+            <name>OECD DAC CRS Purpose Codes (3 digit)</name>
+            <name xml:lang="fr">Codes-objet à trois chiffres du Système de notification des pays créanciers du Comité d’aide au développement de l'OCDE</name>
+            <description>The sector reported corresponds to an OECD DAC CRS 3-digit purpose code</description>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <url>http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4</url>
+            <name>Classification of the Functions of Government (UN)</name>
+            <name xml:lang="fr">Classification des fonctions des administrations publiques (ONU)</name>
+            <description>The sector reported corresponds to the UN Classification of the Functions of Government (CoFoG)</description>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <url>http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&amp;StrNom=NACE_REV2&amp;StrLanguageCode=EN</url>
+            <name>Statistical classification of economic activities in the European Community</name>
+            <name xml:lang="fr">Nomenclature statistique des activités économiques dans la Communauté européenne</name>
+            <description>The sector reported corresponds to the statistical classifications of economic activities in the European Community</description>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <url>http://nccs.urban.org/classification/NTEE.cfm</url>
+            <name>National Taxonomy for Exempt Entities (USA)</name>
+            <name xml:lang="fr">Taxonomie nationale des entités exonérées (É.-U.)</name>
+            <description>The sector reported corresponds to the National Taxonomy for Exempt Entities (NTEE) - USA</description>
+        </codelist-item>
+        <codelist-item>
+            <code>6</code>
+            <name>AidData</name>
+            <name xml:lang="fr">AidData</name>
+            <description>The sector reported corresponds to AidData classifications</description>
+        </codelist-item>
+        <codelist-item>
+            <code>7</code>
+            <url>https://sustainabledevelopment.un.org/?menu=1300</url>
+            <name>SDG Goal</name>
+            <description>A value from the top-level list of UN sustainable development goals (SDGs) (e.g. ‘1’)</description>
+        </codelist-item>
+        <codelist-item>
+            <code>8</code>
+            <url>http://unstats.un.org/sdgs/indicators/indicators-list/</url>
+            <name>SDG Target</name>
+            <description>A value from the second-level list of UN sustainable development goals (SDGs) (e.g. ‘1.1’)</description>
+        </codelist-item>
+        <codelist-item>
+            <code>9</code>
+            <url>http://unstats.un.org/sdgs/indicators/indicators-list/</url>
+            <name>SDG Indicator</name>
+            <description>A value from the second-level list of UN sustainable development (SDG) indicators</description>
+        </codelist-item>
+        <codelist-item>
+            <code>10</code>
+            <url>https://data.humdata.org/dataset/global-coordination-groups-beta</url>
+            <name>Humanitarian Global Clusters (Inter-Agency Standing Committee)</name>
+            <description>The sector reported corresponds to an Inter-Agency Standard Committee Humanitarian Global Cluster code</description>
+        </codelist-item>
+        <codelist-item>
+            <code>11</code>
+            <url>https://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2017</url>
+            <name>North American Industry Classification System (NAICS)</name>
+            <description>The sector reported corresponds to the NAICS codelist</description>
+        </codelist-item>
+        <codelist-item>
+            <code>99</code>
+            <name>Reporting Organisation</name>
+            <name xml:lang="fr">Organisation déclarante</name>
+            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity</description>
+        </codelist-item>
+        <codelist-item>
+            <code>98</code>
+            <name>Reporting Organisation 2</name>
+            <name xml:lang="fr">Organisation déclarante 2</name>
+            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity (if they are referencing more than one)</description>
+            <description xml:lang="fr">Si plus d’un secteur est mentionné, le secteur indiqué correspond au vocabulaire utilisé par l’organisation déclarante en référence à cette activité</description>
+        </codelist-item>
+    </codelist-items>
+</codelist>

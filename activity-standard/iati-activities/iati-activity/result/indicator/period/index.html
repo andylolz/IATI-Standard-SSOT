@@ -1,0 +1,1609 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en-GB"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en-GB"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en-GB"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en-GB"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+    <title>period | The IATI Standard</title>
+    <link rel="top" title="IATI Standard 2.03 documentation" href="../../../../../../" />
+    <link rel="up" title="indicator" href="../" />
+    <link rel="next" title="period-start" href="period-start/" />
+    <link rel="prev" title="narrative" href="../baseline/comment/narrative/" /> 
+
+<!--[if lt IE 9]>
+<script src="../../../../../../_static/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel='stylesheet' id='main-stylesheet-css'  href='../../../../../../_static/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../../../../../_static/library/js/modernizr-2.6.1.min.js'></script>
+<script type='text/javascript' src='../../../../../../_static/library/js/selectivizr.min.js'></script>
+
+    <link rel="stylesheet" href="../../../../../../_static/pygments.css" type="text/css" />
+
+<!-- Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="period" />
+<meta property="og:site_name" content="The IATI Standard" />
+<meta name="twitter:site" content="@IATI_aid" />
+<meta name="twitter:card" content="summary" />
+<link rel="Shortcut Icon" type="image/x-icon" href="../../../../../../_static/favicon.ico" />
+
+<!-- Start of IATI Zendesk Widget script -->
+  <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","iati.zendesk.com");
+  /*]]>*/</script>
+  <!-- End of IATI Zendesk Widget script -->
+
+</head>
+
+
+
+    <body class="page page-parent page-template-default single-author singular two-column left-sidebar">
+
+<a id="top"></a>
+    
+    <div id="site-notice"><strong>This is version 2.03 of the IATI Standard. <a href="/upgrades/all-versions/">See other versions</a>.</strong></div>
+
+    <div id="page" class="hfeed">
+    <header id="header" role="banner">
+        <div class="header-wrapper">
+            <a id="logo" href="http://iatistandard.org/"></a>
+            <span>
+
+            <form role="search" id="searchform" action="/gsearch/">
+              <input type="hidden" name="ie" value="UTF-8" />
+              <input type="text" name="q" size="31" id="s" placeholder="Search IATI Standard" />
+              <input type="submit" id="searchsubmit" name="sa" value="Search" />
+            </form>
+        </div><!-- end wrapper -->
+
+        <nav id="main-nav" class="nav" role="navigation">
+
+            <h3 class="assistive-text">Main menu</h3>
+                        <div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
+            <div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
+            <ul class="iati-family">
+    <li class="standard"><a href="/">IATI Standard</a></li>
+    <li class="registry"><a href="http://iatiregistry.org">IATI Data</a></li>
+    <li class="community"><a href="http://discuss.iatistandard.org/t/welcome-to-iati-discuss/">IATI Community</a></li>
+</ul>
+<ul id="menu-primary-navigation" class="menu-main">
+    <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+        <a href="../../../../../../introduction/">Introduction</a>
+    </li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+        <a href="../../../../../../guidance/">Guidance</a>
+    </li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item">
+        <a title="Reference" href="../../../../../../reference/">Reference</a>
+    </li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+        <a href="../../../../../../upgrades/">Upgrades</a>
+    </li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page ">
+        <a href="../../../../../../developer/">Developers</a>
+    </li>
+</ul>        </nav>
+
+    </div><!-- end header -->
+
+    <div id="page-content">
+
+                <div id="nav-breadcrumbs">
+            <!-- Breadcrumb NavXT 4.4.0 -->
+<!--<a title="Go to The IATI Standard." href="http://iatistandard.org" class="home">The IATI Standard</a> &gt; The IATI Activities Standard-->        </div><!--.breadcrumbs -->
+        <div id="main">
+        
+            
+		<div id="primary">
+			<div id="content" role="main">
+            
+
+
+
+<article class="page type-page status-publish hentry">
+	<div class="entry-content">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="period">
+<h1>period<a class="headerlink" href="#period" title="Permalink to this headline">¶</a></h1>
+<p><tt class="docutils literal"><span class="pre">iati-activities/iati-activity/result/indicator/period</span></tt></p>
+<p>This is the reference page for the XML element <tt class="docutils literal"><span class="pre">period</span></tt>. See also the relevant overview page: <a class="reference internal" href="../../../../../overview/result/"><em>Result</em></a></p>
+<div class="section" id="definition">
+<span id="index-0"></span><h2>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h2>
+<p>The period covered for the results reported. Multiple periods can be reported for a single indicator.</p>
+</div>
+<div class="section" id="rules">
+<h2>Rules<a class="headerlink" href="#rules" title="Permalink to this headline">¶</a></h2>
+<p>This element may occur any number of times.</p>
+</div>
+<div class="section" id="example-usage">
+<h2>Example Usage<a class="headerlink" href="#example-usage" title="Permalink to this headline">¶</a></h2>
+<p>Example usage of <tt class="docutils literal"><span class="pre">period</span></tt> in context of an <tt class="docutils literal"><span class="pre">indicator</span></tt> in a <tt class="docutils literal"><span class="pre">result</span></tt> element.</p>
+<div class="line-block">
+<div class="line">This element is a parent for other child elements.</div>
+</div>
+<div class="highlight-xml"><div class="highlight"><pre>   <span class="nt">&lt;indicator</span> <span class="na">measure=</span><span class="s">&quot;1&quot;</span> <span class="na">ascending=</span><span class="s">&quot;1&quot;</span> <span class="na">aggregation-status=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;title&gt;</span>
+      <span class="nt">&lt;narrative&gt;</span>Indicator title<span class="nt">&lt;/narrative&gt;</span>
+     <span class="nt">&lt;/title&gt;</span>
+     <span class="nt">&lt;description&gt;</span>
+      <span class="nt">&lt;narrative&gt;</span>Indicator description text<span class="nt">&lt;/narrative&gt;</span>
+     <span class="nt">&lt;/description&gt;</span>
+     <span class="nt">&lt;document-link</span> <span class="na">format=</span><span class="s">&quot;application/vnd.oasis.opendocument.text&quot;</span> <span class="na">url=</span><span class="s">&quot;http:www.example.org/docs/result_indicator_en.odt&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;title&gt;</span>
+       <span class="nt">&lt;narrative&gt;</span>Results Indicator Report 2013<span class="nt">&lt;/narrative&gt;</span>
+      <span class="nt">&lt;/title&gt;</span>
+      <span class="nt">&lt;description&gt;</span>
+        <span class="nt">&lt;narrative&gt;</span>Report of results indicator<span class="nt">&lt;/narrative&gt;</span>
+      <span class="nt">&lt;/description&gt;</span>
+      <span class="nt">&lt;category</span> <span class="na">code=</span><span class="s">&quot;A01&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;language</span> <span class="na">code=</span><span class="s">&quot;en&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;document-date</span> <span class="na">iso-date=</span><span class="s">&quot;2014-02-05&quot;</span> <span class="nt">/&gt;</span>
+     <span class="nt">&lt;/document-link&gt;</span>
+     <span class="nt">&lt;reference</span> <span class="na">vocabulary=</span><span class="s">&quot;1&quot;</span> <span class="na">code=</span><span class="s">&quot;3429&quot;</span> <span class="nt">/&gt;</span>
+     <span class="nt">&lt;reference</span> <span class="na">vocabulary=</span><span class="s">&quot;7&quot;</span> <span class="na">code=</span><span class="s">&quot;861&quot;</span> <span class="nt">/&gt;</span>
+     <span class="nt">&lt;reference</span> <span class="na">vocabulary=</span><span class="s">&quot;99&quot;</span> <span class="na">code=</span><span class="s">&quot;B1&quot;</span> <span class="na">indicator-uri=</span><span class="s">&quot;http://example.com/indicators.html&quot;</span> <span class="nt">/&gt;</span>
+<span class="c">&lt;!--result-baseline starts--&gt;</span>
+     <span class="nt">&lt;baseline</span> <span class="na">year=</span><span class="s">&quot;2012&quot;</span> <span class="na">iso-date=</span><span class="s">&quot;2012-01-01&quot;</span> <span class="na">value=</span><span class="s">&quot;10&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;AF-KAN&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;KH-PNH&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">value=</span><span class="s">&quot;female&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;age&quot;</span> <span class="na">value=</span><span class="s">&quot;adult&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;document-link</span> <span class="na">format=</span><span class="s">&quot;application/vnd.oasis.opendocument.text&quot;</span> <span class="na">url=</span><span class="s">&quot;http:www.example.org/docs/result_baseline_en.odt&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;title&gt;</span>
+        <span class="nt">&lt;narrative&gt;</span>Results Baseline Report 2013<span class="nt">&lt;/narrative&gt;</span>
+       <span class="nt">&lt;/title&gt;</span>
+       <span class="nt">&lt;description&gt;</span>
+         <span class="nt">&lt;narrative&gt;</span>Report of results baseline<span class="nt">&lt;/narrative&gt;</span>
+       <span class="nt">&lt;/description&gt;</span>
+       <span class="nt">&lt;category</span> <span class="na">code=</span><span class="s">&quot;A01&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;language</span> <span class="na">code=</span><span class="s">&quot;en&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;document-date</span> <span class="na">iso-date=</span><span class="s">&quot;2014-02-05&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;/document-link&gt;</span>
+      <span class="nt">&lt;comment&gt;</span>
+       <span class="nt">&lt;narrative&gt;</span>Baseline comment text<span class="nt">&lt;/narrative&gt;</span>
+      <span class="nt">&lt;/comment&gt;</span>
+     <span class="nt">&lt;/baseline&gt;</span>
+     <span class="c">&lt;!--result-baseline ends--&gt;</span>
+     <span class="c">&lt;!--result-period starts--&gt;</span>
+     <span class="nt">&lt;period&gt;</span>
+      <span class="nt">&lt;period-start</span> <span class="na">iso-date=</span><span class="s">&quot;2013-01-01&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;period-end</span> <span class="na">iso-date=</span><span class="s">&quot;2013-03-31&quot;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;target</span> <span class="na">value=</span><span class="s">&quot;10&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;AF-KAN&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;KH-PNH&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">value=</span><span class="s">&quot;female&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;age&quot;</span> <span class="na">value=</span><span class="s">&quot;adult&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;comment&gt;</span>
+        <span class="nt">&lt;narrative&gt;</span>Target comment text<span class="nt">&lt;/narrative&gt;</span>
+       <span class="nt">&lt;/comment&gt;</span>
+       <span class="nt">&lt;document-link</span> <span class="na">format=</span><span class="s">&quot;application/vnd.oasis.opendocument.text&quot;</span> <span class="na">url=</span><span class="s">&quot;http:www.example.org/docs/result_period_target_en.odt&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+         <span class="nt">&lt;narrative&gt;</span>Results Period Target Report 2013<span class="nt">&lt;/narrative&gt;</span>
+        <span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;description&gt;</span>
+          <span class="nt">&lt;narrative&gt;</span>Report of results period target<span class="nt">&lt;/narrative&gt;</span>
+        <span class="nt">&lt;/description&gt;</span>
+        <span class="nt">&lt;category</span> <span class="na">code=</span><span class="s">&quot;A01&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;language</span> <span class="na">code=</span><span class="s">&quot;en&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;document-date</span> <span class="na">iso-date=</span><span class="s">&quot;2014-02-05&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;/document-link&gt;</span>
+      <span class="nt">&lt;/target&gt;</span>
+      <span class="nt">&lt;actual</span> <span class="na">value=</span><span class="s">&quot;11&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;AF-KAN&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;location</span> <span class="na">ref=</span><span class="s">&quot;KH-PNH&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;sex&quot;</span> <span class="na">value=</span><span class="s">&quot;female&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;dimension</span> <span class="na">name=</span><span class="s">&quot;age&quot;</span> <span class="na">value=</span><span class="s">&quot;adult&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;comment&gt;</span>
+         <span class="nt">&lt;narrative&gt;</span>Actual comment text<span class="nt">&lt;/narrative&gt;</span>
+       <span class="nt">&lt;/comment&gt;</span>
+       <span class="nt">&lt;document-link</span> <span class="na">format=</span><span class="s">&quot;application/vnd.oasis.opendocument.text&quot;</span> <span class="na">url=</span><span class="s">&quot;http:www.example.org/docs/result_period_actual_en.odt&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+         <span class="nt">&lt;narrative&gt;</span>Results Period Actual Report 2013<span class="nt">&lt;/narrative&gt;</span>
+        <span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;description&gt;</span>
+          <span class="nt">&lt;narrative&gt;</span>Report of results period actual<span class="nt">&lt;/narrative&gt;</span>
+        <span class="nt">&lt;/description&gt;</span>
+        <span class="nt">&lt;category</span> <span class="na">code=</span><span class="s">&quot;A01&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;language</span> <span class="na">code=</span><span class="s">&quot;en&quot;</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;document-date</span> <span class="na">iso-date=</span><span class="s">&quot;2014-02-05&quot;</span> <span class="nt">/&gt;</span>
+       <span class="nt">&lt;/document-link&gt;</span>
+      <span class="nt">&lt;/actual&gt;</span>
+     <span class="nt">&lt;/period&gt;</span>
+     <span class="c">&lt;!--result-period ends--&gt;</span>
+   <span class="nt">&lt;/indicator&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="developer-tools">
+<h2>Developer tools<a class="headerlink" href="#developer-tools" title="Permalink to this headline">¶</a></h2>
+<p>Find the source of this documentation on github:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/IATI/IATI-Schemas/blob/version-2.03/iati-activities-schema.xsd#L1813">Schema</a></li>
+<li><a class="reference external" href="https://github.com/IATI/IATI-Extra-Documentation/blob/version-2.03/en/activity-standard/iati-activities/iati-activity/result/indicator/period.rst">Extra Documentation</a></li>
+</ul>
+</div>
+<div class="section" id="subelements">
+<h2>Subelements<a class="headerlink" href="#subelements" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="period-start/">period-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="period-end/">period-end</a></li>
+<li class="toctree-l1"><a class="reference internal" href="target/">target</a></li>
+<li class="toctree-l1"><a class="reference internal" href="actual/">actual</a></li>
+</ul>
+</div>
+<p><em>Last updated on 2019-02-19</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+</article>
+
+            
+			</div><!-- #content -->
+
+		</div><!-- #primary -->
+
+<div id="secondary" class="widget-area" role="complementary">
+    <aside id="pages-3" class="widget-1 widget-first widget-odd widget widget_pages"><h3 class="widget-title">Pages</h3> 
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../introduction/">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../introduction/key-considerations/">Key considerations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/timely/">Timely</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/comprehensive/">Comprehensive</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/forward-looking/">Forward-looking</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/structured/">Structured</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/comparable/">Comparable</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../introduction/key-considerations/open/">Open</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../introduction/standards/">The organisation &amp; activity standards</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../introduction/codelists-schema/">Codelists, schema &amp; rulesets</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../introduction/upgrade-processes/">Upgrade processes</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../guidance/">Guidance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../guidance/datastore/">Datastore (Alpha)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../guidance/datastore/guidance/">Guidance</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/guidance/forming-queries/">Forming Queries</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/guidance/data-formats/">Data Formats</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../guidance/datastore/reference/">Reference</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/reference/data-api/">Data API</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/reference/structure-of-data/">Structure of data</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/reference/metadata-api/">Metadata API</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../guidance/datastore/reference/error-api/">Error API</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../../../reference/">Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../organisation-identifiers/">Organisation Identifiers</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../../../">Activity Standard</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../../../../../overview/">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/what-to-publish/">What do I need to publish?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/all-elements-in-IATI/">Full list of top-level elements in IATI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../summary-table/">Activity Standard Summary Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/activity-file/">Activity file</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/iati-activity/">IATI Activity</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/iati-identifier/">IATI Identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/dates/">Activity Dates</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/organisations/">Organisations</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/geography/">Geography</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/country-budget-alignment/">Country Budget Alignment</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/classifications/">Classifications</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/budgets/">Budgets</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/transactions/">Transaction</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/result/">Result</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/related-data/">Related Data</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/linked-documents/">Related Documents</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/crs-fss/">CRS &amp; FSS</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/conditions/">Conditions</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/contact-info/">Contact Info</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/humanitarian-reporting/">Humanitarian Reporting</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../overview/self-defined-vocabularies/">Self-defined Vocabularies</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../example-xml/">Example Usage XML</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="reference internal" href="../../../../../elements/">Elements</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="../../../../">iati-activities</a><ul class="current">
+<li class="toctree-l5 current"><a class="reference internal" href="../../../">iati-activity</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="../../../iati-identifier/">iati-identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../reporting-org/">reporting-org</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../reporting-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../title/">title</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../description/">description</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../participating-org/">participating-org</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../participating-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../other-identifier/">other-identifier</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../other-identifier/owner-org/">owner-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../other-identifier/owner-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../activity-status/">activity-status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../activity-date/">activity-date</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../activity-date/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../contact-info/">contact-info</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/organisation/">organisation</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../contact-info/organisation/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/department/">department</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../contact-info/department/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/person-name/">person-name</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../contact-info/person-name/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/job-title/">job-title</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../contact-info/job-title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/telephone/">telephone</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/email/">email</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/website/">website</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../contact-info/mailing-address/">mailing-address</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../contact-info/mailing-address/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../activity-scope/">activity-scope</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../recipient-country/">recipient-country</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../recipient-country/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../recipient-region/">recipient-region</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../recipient-region/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../location/">location</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/location-reach/">location-reach</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/location-id/">location-id</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/name/">name</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../location/name/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/description/">description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../location/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/activity-description/">activity-description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../location/activity-description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/administrative/">administrative</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/point/">point</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../location/point/pos/">pos</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/exactness/">exactness</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/location-class/">location-class</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../location/feature-designation/">feature-designation</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../sector/">sector</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../sector/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../tag/">tag</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../tag/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../country-budget-items/">country-budget-items</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../country-budget-items/budget-item/">budget-item</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../country-budget-items/budget-item/description/">description</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../../../country-budget-items/budget-item/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../humanitarian-scope/">humanitarian-scope</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../humanitarian-scope/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../policy-marker/">policy-marker</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../policy-marker/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../collaboration-type/">collaboration-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../default-flow-type/">default-flow-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../default-finance-type/">default-finance-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../default-aid-type/">default-aid-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../default-tied-status/">default-tied-status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../budget/">budget</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../budget/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../budget/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../budget/value/">value</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../planned-disbursement/">planned-disbursement</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../planned-disbursement/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../planned-disbursement/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../planned-disbursement/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../planned-disbursement/provider-org/">provider-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../planned-disbursement/provider-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../planned-disbursement/receiver-org/">receiver-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../planned-disbursement/receiver-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../capital-spend/">capital-spend</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../transaction/">transaction</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/transaction-type/">transaction-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/transaction-date/">transaction-date</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/description/">description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/provider-org/">provider-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/provider-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/receiver-org/">receiver-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/receiver-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/disbursement-channel/">disbursement-channel</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/sector/">sector</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/sector/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/recipient-country/">recipient-country</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/recipient-country/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/recipient-region/">recipient-region</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../transaction/recipient-region/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/flow-type/">flow-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/finance-type/">finance-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/aid-type/">aid-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../transaction/tied-status/">tied-status</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../document-link/">document-link</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../document-link/title/">title</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../document-link/description/">description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../related-activity/">related-activity</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../legacy-data/">legacy-data</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../conditions/">conditions</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../conditions/condition/">condition</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../conditions/condition/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6 current"><a class="reference internal" href="../../">result</a><ul class="current">
+<li class="toctree-l7"><a class="reference internal" href="../../title/">title</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../description/">description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../document-link/">document-link</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../document-link/title/">title</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../../document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../document-link/description/">description</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../../document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../reference/">reference</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7 current"><a class="reference internal" href="../">indicator</a><ul class="current">
+<li class="toctree-l8"><a class="reference internal" href="../title/">title</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../description/">description</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../document-link/">document-link</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../document-link/title/">title</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="../document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../document-link/description/">description</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="../document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../reference/">reference</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../baseline/">baseline</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="../baseline/location/">location</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../baseline/dimension/">dimension</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../baseline/document-link/">document-link</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/document-link/title/">title</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="../baseline/document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/document-link/description/">description</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="../baseline/document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="../baseline/comment/">comment</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="../baseline/comment/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l8 current"><a class="current reference internal" href="">period</a><ul>
+<li class="toctree-l9"><a class="reference internal" href="period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="target/">target</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="target/location/">location</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="target/dimension/">dimension</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="target/comment/">comment</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="target/comment/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="target/document-link/">document-link</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="target/document-link/title/">title</a><ul>
+<li class="toctree-l12"><a class="reference internal" href="target/document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="target/document-link/description/">description</a><ul>
+<li class="toctree-l12"><a class="reference internal" href="target/document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="target/document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="target/document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="target/document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l9"><a class="reference internal" href="actual/">actual</a><ul>
+<li class="toctree-l10"><a class="reference internal" href="actual/location/">location</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="actual/dimension/">dimension</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="actual/comment/">comment</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="actual/comment/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l10"><a class="reference internal" href="actual/document-link/">document-link</a><ul>
+<li class="toctree-l11"><a class="reference internal" href="actual/document-link/title/">title</a><ul>
+<li class="toctree-l12"><a class="reference internal" href="actual/document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="actual/document-link/description/">description</a><ul>
+<li class="toctree-l12"><a class="reference internal" href="actual/document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="actual/document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="actual/document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l11"><a class="reference internal" href="actual/document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../crs-add/">crs-add</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../crs-add/other-flags/">other-flags</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../crs-add/loan-terms/">loan-terms</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-terms/repayment-type/">repayment-type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-terms/repayment-plan/">repayment-plan</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-terms/commitment-date/">commitment-date</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-terms/repayment-first-date/">repayment-first-date</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-terms/repayment-final-date/">repayment-final-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../crs-add/loan-status/">loan-status</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-status/interest-received/">interest-received</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-status/principal-outstanding/">principal-outstanding</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-status/principal-arrears/">principal-arrears</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../crs-add/loan-status/interest-arrears/">interest-arrears</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../crs-add/channel-code/">channel-code</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../fss/">fss</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../fss/forecast/">forecast</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../organisation-standard/">Organisation Standard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../organisation-standard/overview/">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/summary-table/">Organisation Standard Summary Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/overview/organisation-file/">Organisation file</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/overview/iati-organisation/">IATI Organisation</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/overview/organisations/">Type of Organisations</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/overview/budgets/">Budgets</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/overview/documents/">Documents</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/example-xml/">Example Usage XML</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../organisation-standard/elements/">Elements</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/">iati-organisations</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/">iati-organisation</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/organisation-identifier/">organisation-identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/name/">name</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/name/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/reporting-org/">reporting-org</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/reporting-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/">total-budget</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/budget-line/">budget-line</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/budget-line/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-budget/budget-line/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/">recipient-org-budget</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/recipient-org/">recipient-org</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/recipient-org/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/budget-line/">budget-line</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/budget-line/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/budget-line/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/">recipient-region-budget</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/recipient-region/">recipient-region</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/recipient-region/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/budget-line/">budget-line</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/budget-line/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-region-budget/budget-line/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/">recipient-country-budget</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/recipient-country/">recipient-country</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/recipient-country/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/budget-line/">budget-line</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/budget-line/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/budget-line/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/">total-expenditure</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/period-start/">period-start</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/period-end/">period-end</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/expense-line/">expense-line</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/expense-line/value/">value</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/total-expenditure/expense-line/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/">document-link</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/recipient-country/">recipient-country</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/recipient-country/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/title/">title</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/title/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/description/">description</a><ul>
+<li class="toctree-l8"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/description/narrative/">narrative</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/category/">category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/language/">language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../../../organisation-standard/iati-organisations/iati-organisation/document-link/document-date/">document-date</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../namespaces-extensions/">Namespaces &amp; Extensions</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../codelists/">Codelists</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists-guides/codelist-management/">IATI Codelist Management</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists-guides/codelist-api/">Codelist API</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ActivityDateType/">Activity Date Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ActivityScope/">Activity Scope</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ActivityStatus/">Activity Status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/AidType/">Aid Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/AidType-category/">Aid Type (category)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/AidTypeVocabulary/">Aid Type Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetIdentifier/">Budget Identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetIdentifierSector/">Budget Identifier Sector</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetIdentifierSector-category/">Budget Identifier Sector (category)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetIdentifierVocabulary/">Budget Identifier Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetNotProvided/">Budget Not Provided</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetStatus/">Budget Status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/BudgetType/">Budget Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/CRSAddOtherFlags/">CRS Additional Other Flags</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/CRSChannelCode/">CRS Channel Code</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/CollaborationType/">Collaboration Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ConditionType/">Condition Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ContactType/">Contact Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Country/">Country</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Currency/">Currency</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/DescriptionType/">Description Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/DisbursementChannel/">Disbursement Channel</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/DocumentCategory/">Document Category</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/DocumentCategory-category/">Document Category (category)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/EarmarkingCategory/">EarmarkingCategory</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/FileFormat/">File Format</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/FinanceType/">Finance Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/FinanceType-category/">Finance Type (category)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/FlowType/">Flow Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GazetteerAgency/">Gazetteer Agency</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GeographicExactness/">Geographic Exactness</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GeographicLocationClass/">Geographic Location Class</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GeographicLocationReach/">Geographic Location Reach</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GeographicVocabulary/">Geographic Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/GeographicalPrecision/">Geographical Precision</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/HumanitarianScopeType/">Humanitarian Scope Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/HumanitarianScopeVocabulary/">Humanitarian Scope Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/IATIOrganisationIdentifier/">IATI Organisation Identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/IndicatorMeasure/">Indicator Measure</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/IndicatorVocabulary/">Indicator Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Language/">Language</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/LoanRepaymentPeriod/">Loan Repayment Period</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/LoanRepaymentType/">Loan Repayment Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/LocationType/">Location Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/LocationType-category/">Location Type (category)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/OrganisationIdentifier/">Organisation Identifier</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/OrganisationRegistrationAgency/">Organisation Registration Agency</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/OrganisationRole/">Organisation Role</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/OrganisationType/">Organisation Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/OtherIdentifierType/">Other Identifier Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/PolicyMarker/">Policy Marker</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/PolicyMarkerVocabulary/">Policy Marker Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/PolicySignificance/">Policy Significance</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/PublisherType/">Publisher Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Region/">Region</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/RegionVocabulary/">Region Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/RelatedActivityType/">Related Activity Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ResultType/">Result Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/ResultVocabulary/">Result Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Sector/">DAC 5 Digit Sector</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/SectorCategory/">DAC 3 Digit Sector</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/SectorVocabulary/">Sector Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/TagVocabulary/">Tag Vocabulary</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/TiedStatus/">Tied Status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/TransactionType/">Transaction Type</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/VerificationStatus/">Verification Status</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Version/">Version</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../codelists/Vocabulary/">Vocabulary</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../schema/">Schema</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../rulesets/">Rulesets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../rulesets/standard-ruleset/">Standard Ruleset</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../rulesets/ruleset-spec/">IATI Ruleset Spec</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../rulesets/ruleset-development/">Ruleset development</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../upgrades/">Upgrades</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/all-versions/">All Versions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/all-versions/previous-process/">Previous Upgrade Process</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/nonembedded-codelist-changelog/">Non-Embedded Codelist Changelog</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-2-03/">Decimal Upgrade to 2.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-2-03/2-03-changes/">2.03 Changelog</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-2-02/">Decimal Upgrade to 2.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-2-02/2-02-changes/">2.02 Changelog</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/integer-upgrade-to-2-01/">Integer Upgrade to 2.01</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/integer-upgrade-to-2-01/2-01-headlines/">2.01 Headlines</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/integer-upgrade-to-2-01/migrating/">Migrating from versions 1.x to version 2.01</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/integer-upgrade-to-2-01/2-01-changes/">2.01 Changelog</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-05/">Decimal Upgrade to 1.05</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-05/1-05-changes/">1.05 Changelog</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-04/">Decimal Upgrade to 1.04</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-04/1-04-changes/">1.04 Changes</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-04/location-summary/">Location: Summary of changes in IATI Standard version 1.04</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-03/">Decimal Upgrade to 1.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-03/1-03-changes/">1.03 Changes</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-02/">Decimal Upgrade to 1.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../upgrades/decimal-upgrade-to-1-02/1-02-changes/">1.02 Changes</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../developer/">IATI Developer Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/communication/">Getting in Touch</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/community-about/">IATI Developer Community</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/ssot/">IATI Standard (Single Source of Truth)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../developer/ssot/proposal/">Proposal: A Single Source of Truth for the IATI Standard</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/code/">IATI Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../developer/code-checklist/">IATI Code Checklist</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../../../developer/code-python/">Notes about IATI Python Code</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/data-quality/">Data Quality Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/access/">Problems Accessing IATI Data</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/security/">Security considerations</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/xquery/">Useful XQuery queries</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/tools/">IATI Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/tools-generic/">Non-IATI specific tools</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../../../developer/contribute/">Contribution Guide</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div> 
+		</aside></div>
+            
+        
+</div><!--#page-content -->
+</div><!--#page -->
+
+<div id="pre-footer">
+    
+
+    <div id="footer-links">
+        <ul>
+            <li>
+                <a href="../../../../../../sitemap/">Site map</a>
+            </li>
+            <li>
+                <a href="https://iatistandard.org/en/guidance/">Support</a>
+            </li>
+            <li>
+                <a href="https://www.aidtransparency.net/privacy-policy">Privacy policy</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="footer-additional">
+        <div id="footer-cookie">
+            <aside id="text-21" class="widget-1 widget-first widget-last widget-odd widget widget_text"><h3 class="widget-title">Cookie Disclaimer</h3>			<div class="textwidget"><p>Cookies are small text files that are stored by the browser (e.g. Internet Explorer, Chrome, Firefox) on your computer or mobile phone. This site uses anonymous Analytics cookies which allow us to track how many unique individual users we have, and how often they visit the site. Unless a user signs in, these cookies cannot be used to identify an individual; they are used for statistical purposes only. If you are logged in, we will also know the details you gave to us for this, such as username and email address. By continuing to use this site, you are agreeing to the use of cookies.</p>
+</div>
+		</aside>        </div>
+        <div id="footer-social">
+            <aside id="sidebar_social_links" class="widget widget_social_links">
+    <div class="text-widget">
+        <ul class="social-links">
+            <li class="social twitter"><a href="https://twitter.com/IATI_aid">Twitter</a></li>
+        </ul>
+    </div>
+</aside>
+        </div>
+        <!--#footer-social -->
+    </div>
+</div><!--#footer-wrapper -->
+
+<footer id="footer">
+
+    <div id="footer-credits">
+        <span class="glyphicons">Text licensed under CC BY 4.0 (<a href="../../../../../../license/">full copyright statement</a>). Icons from <a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></span>
+    </div>
+    <!--.footer-inner -->
+</footer><!--#footer -->
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js?ver=1.8.2'></script>
+<script type='text/javascript' src='../../../../../../_static/library/js/iati.js'></script>
+<script type='text/javascript' src='../../../../../../_static/library/js/common.js'></script>
+    
+    <script type="text/javascript">
+        //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-6109435-11']);
+        _gaq.push(['_gat._anonymizeIp']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        //]]>
+    </script>
+
+    </body>
+</html>

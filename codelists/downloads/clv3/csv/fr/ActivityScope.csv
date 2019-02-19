@@ -1,0 +1,9 @@
+code,name,description,category,url,status
+1,Mondial,,,,active
+2,Régional,,,,active
+3,Multinational,,,,active
+4,National,,,,active
+5,Infranational : multiples régions administratives de premier niveau,,,,active
+6,Infranational : Région administrative unique de premier niveau,,,,active
+7,Infranational : Région administrative unique de deuxième niveau,,,,active
+8,Un seul emplacement,,,,active

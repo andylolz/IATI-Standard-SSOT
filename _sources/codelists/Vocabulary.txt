@@ -1,0 +1,8 @@
+Vocabulary
+==========
+
+This codelist was split into the `SectorVocabulary` and `PolicyMarkerVocabulary` codelists in 2.01.
+
+
+
+*Last updated on 2019-02-19*

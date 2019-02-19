@@ -1,0 +1,13 @@
+<codelist date-last-modified="2019-02-19T19:41:43.294139+00:00" version="" name="TagVocabulary" xml:lang="en">
+  <TagVocabulary>
+    <code>1</code>
+    <name>Agrovoc</name>
+    <language>en</language>
+    <description>A controlled vocabulary covering all areas of interest of the Food and Agriculture Organization (FAO) of the United Nations, including food, nutrition, agriculture, fisheries, forestry, environment etc.</description>
+  </TagVocabulary>
+  <TagVocabulary>
+    <code>99</code>
+    <name>Reporting Organisation</name>
+    <language>en</language>
+  </TagVocabulary>
+</codelist>
