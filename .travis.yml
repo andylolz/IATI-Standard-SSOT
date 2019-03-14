@@ -1,8 +1,38 @@
 language: python
+
 python:
-  - "2.7"
+    - "2.7"
+
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -qq libxml2-utils
+
 script:
-    - ./gen.sh
+    - git clone https://github.com/IATI/IATI-Websites.git
+    - git clone https://github.com/IATI/IATI-Developer-Documentation.git
+    - git clone https://github.com/IATI/IATI-Guidance.git
+    - ln -s ../../IATI-Websites/iatistandard/_templates/ IATI-Extra-Documentation/en
+    - ln -s ../../IATI-Websites/iatistandard/_static/ IATI-Extra-Documentation/en
+    - mkdir docs
+    - cd docs
+    - git init
+    - cd ..
+    - ./combined_gen.sh
+
+addons:
+    ssh_known_hosts: CHANGEME_HOST
+
+before_deploy:
+    - openssl aes-256-cbc -K CHANGEME_KEY -iv CHANGEME_INIT_VECTOR -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+    - eval "$(ssh-agent -s)"
+    - chmod 600 /tmp/deploy_rsa
+    - ssh-add /tmp/deploy_rsa
+
+deploy:
+    provider: script
+    script:
+        - rsync -r --delete-after docs-copy/en/_build/dirhtml/ CHANGEME_LOGIN@CHANGEME_HOST:/CHANGEME_PATH/`echo $TRAVIS_BRANCH | sed "s/[^0-9]//g"`
+    skip-cleanup: true
+    on:
+        all_branches: true
+        condition: $TRAVIS_BRANCH =~ ^version
